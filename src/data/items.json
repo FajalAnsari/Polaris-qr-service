@@ -1,0 +1,3352 @@
+[
+    {
+        "item_sku": "11124",
+        "item_name": "Brownie Bites with Nutella",
+        "item_arabic_name": "Ø¨Ø±Ø§ÙÙÙ Ø¨Ø§ÙØªØ³ Ø¨Ø§ÙÙÙØªÙÙØ§",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Brownie Bites with Nutella Sink your teeth into our super rich and chocolatey fudge brownies in bite size with a drip of Nutella sauce A jar of Bite sized Fudgy browines with a pack of Nutella sauce",
+        "item_arabic_description": "Ø¨Ø±Ø§ÙÙÙ Ø¨Ø§ÙØªØ³ Ø¨Ø§ÙÙÙØªÙÙØ§",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011124",
+        "item_category_id": "5",
+        "item_category_name": "COOKIES &amp; BROWNIES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "32",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "32",
+            "2": "32",
+            "3": "32"
+        }
+    },
+    {
+        "item_sku": "1",
+        "item_name": "Pull Me Up Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø³Ø­Ø¨ ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Size: 5 inch 3 layer - Serves 8 - 1.5kg Instructions: Get your spoon ready. Pour the hot chocolate sauce on the moist chocolate cake.Pull up the plastic sleeve. Attack. Please Do not blink or there wont be any cake left for you",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø³Ø­Ø¨ ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000001",
+        "item_category_id": "6",
+        "item_category_name": "Premium Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "205",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "205",
+            "2": "205",
+            "3": "205"
+        }
+    },
+    {
+        "item_sku": "2",
+        "item_name": "Chocolate &amp; Salted Caramel",
+        "item_arabic_name": "Ø´ÙÙÙÙØ§ØªØ© ÙÙØ±Ø§ÙÙÙ ÙÙÙØ­",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate sponge with ooye-gooey Salted Caramel Filling. I think Im in love! Size: 6 inches 3 layer Serving: 8-10 people Weight: 1.5kg",
+        "item_arabic_description": "Ø´ÙÙÙÙØ§ØªØ© ÙÙØ±Ø§ÙÙÙ ÙÙÙØ­",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000002",
+        "item_category_id": "6",
+        "item_category_name": "Premium Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "205",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "205",
+            "2": "205",
+            "3": "205"
+        }
+    },
+    {
+        "item_sku": "3",
+        "item_name": "Dark Mocha Fudge",
+        "item_arabic_name": "Ø­ÙÙÙ Ø§ÙÙÙÙØ§ Ø§ÙØ¯Ø§ÙÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "The sweetness of chocolate paired with the bitterness of coffee - A match made by Cupid himself Size: 6 inches 4 layer Servings: 12-14 People Weight: 2kg ",
+        "item_arabic_description": "Ø­ÙÙÙ Ø§ÙÙÙÙØ§ Ø§ÙØ¯Ø§ÙÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000003",
+        "item_category_id": "6",
+        "item_category_name": "Premium Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "240",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "240",
+            "2": "240",
+            "3": "240"
+        }
+    },
+    {
+        "item_sku": "10",
+        "item_name": "Fruit Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙÙØ§ÙÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "You classic Fruit cake with whipped cream icing. Size: 8 inch 2 layer Serving: 8-10 people Weight: 1.5kg ",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙÙØ§ÙÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000010",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "195",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "195",
+            "2": "195",
+            "3": "195"
+        }
+    },
+    {
+        "item_sku": "11",
+        "item_name": "Hazelnut Dream -5 inch",
+        "item_arabic_name": "Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù - 5 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Moist Chocolate Cake. Nutella is filled so generously that it barely stays in. And to top it all off - Ferrero Rocher!!! Multiple sizes available",
+        "item_arabic_description": "Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù - 5 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000011",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "140",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "140",
+            "2": "140",
+            "3": "140"
+        }
+    },
+    {
+        "item_sku": "11077",
+        "item_name": "Carrot Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø¬Ø²Ø±",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Carrot Cake Weight  1.5kg Serving  8 people",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø¬Ø²Ø±",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011077",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "190",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "190",
+            "2": "190",
+            "3": "190"
+        }
+    },
+    {
+        "item_sku": "11115",
+        "item_name": "Lotus Biscoff Dream Cake",
+        "item_arabic_name": "ÙÙØªØ³ Ø¨ÙØ³ÙÙÙ Ø¯Ø±ÙÙ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Try our Lotus Biscoff Dream Cake. Fluffy Vanilla Sponge layered with biscoff cream and lotus biscuit crumbs will make every one fall in love with the cake. Cake Dimentions 6inch with 3 layers of cake weight 1.5kg",
+        "item_arabic_description": "ÙÙØªØ³ Ø¨ÙØ³ÙÙÙ Ø¯Ø±ÙÙ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011115",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "190",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "190",
+            "2": "190",
+            "3": "190"
+        }
+    },
+    {
+        "item_sku": "12",
+        "item_name": "Hazelnut Dream - 6 inch",
+        "item_arabic_name": "Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù - 6 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Moist Chocolate Cake. Nutella is filled so generously that it barely stays in. And to top it all off - Ferrero Rocher!!! Multiple sizes available",
+        "item_arabic_description": "Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù - 6 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000012",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "190",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "190",
+            "2": "190",
+            "3": "190"
+        }
+    },
+    {
+        "item_sku": "13",
+        "item_name": "Hazelnut Dream - 8 inch",
+        "item_arabic_name": "Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù - 8 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Moist Chocolate Cake. Nutella is filled so generously that it barely stays in. And to top it all off - Ferrero Rocher!!! Multiple sizes available",
+        "item_arabic_description": "Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù - 8 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000013",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "220",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "220",
+            "2": "220",
+            "3": "220"
+        }
+    },
+    {
+        "item_sku": "14",
+        "item_name": "Lemon Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Super light and refreshing. Perfect for summers and for the not-so-sweet tooth-s Size: 6 inches 3 layers Serving: 8-10 people Weight: 1.5kg",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000014",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "180",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "180",
+            "2": "180",
+            "3": "180"
+        }
+    },
+    {
+        "item_sku": "15",
+        "item_name": "Red Velvet Cake - 5 inch",
+        "item_arabic_name": "ÙÙÙ Ø±ÙØ¯ ÙÙÙÙÙØª - 5 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "5 inch (1kg) - Serves 4",
+        "item_arabic_description": "ÙÙÙ Ø±ÙØ¯ ÙÙÙÙÙØª - 5 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000015",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "135",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "135",
+            "2": "135",
+            "3": "135"
+        }
+    },
+    {
+        "item_sku": "16",
+        "item_name": "Red Velvet Cake - 6 inch",
+        "item_arabic_name": "ÙÙÙ Ø±ÙØ¯ ÙÙÙÙÙØª - 6 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "6 inch (1.5kg) - Serves 8",
+        "item_arabic_description": "ÙÙÙ Ø±ÙØ¯ ÙÙÙÙÙØª - 6 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000016",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "185",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "185",
+            "2": "185",
+            "3": "185"
+        }
+    },
+    {
+        "item_sku": "17",
+        "item_name": "Red Velvet Cake - 8 inch",
+        "item_arabic_name": "ÙÙÙØ© Ø±ÙØ¯ ÙÙÙÙÙØª - 8 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "8 inch (2kg) - Serves 12",
+        "item_arabic_description": "ÙÙÙØ© Ø±ÙØ¯ ÙÙÙÙÙØª - 8 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000017",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "210",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "210",
+            "2": "210",
+            "3": "210"
+        }
+    },
+    {
+        "item_sku": "18",
+        "item_name": "Very Berry",
+        "item_arabic_name": "Ø¨ÙØ±Ù Ø¬Ø¯Ø§",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Vanilla sponge with berry filling- Strawberries, Blueberries, Raspberries and Cherries. Berrrryyy Interesting! Size: 6 inch 3 layer Serving: 8-10 people Weight: 1.5k",
+        "item_arabic_description": "Ø¨ÙØ±Ù Ø¬Ø¯Ø§",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000018",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "195",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "195",
+            "2": "195",
+            "3": "195"
+        }
+    },
+    {
+        "item_sku": "5",
+        "item_name": "Black Forest",
+        "item_arabic_name": "Ø§ÙØºØ§Ø¨Ø© Ø§ÙØ³ÙØ¯Ø§Ø¡",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Probably the most popular cake flavor - but taken to the next level! Size: 6 inches 3 layer Serving: 8-10 people Weight: 1.5kg ",
+        "item_arabic_description": "Ø§ÙØºØ§Ø¨Ø© Ø§ÙØ³ÙØ¯Ø§Ø¡",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000005",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "195",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "195",
+            "2": "195",
+            "3": "195"
+        }
+    },
+    {
+        "item_sku": "6",
+        "item_name": "Choco Berry",
+        "item_arabic_name": "Ø´ÙÙÙ Ø¨ÙØ±Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate sponge with berry filling- Strawberries, Blueberries, Raspberries and Cherries. Berrrryyy Interesting! Size: 6 inches 3 layer Serving: 8-10 people Weight: 1.5kg",
+        "item_arabic_description": "Ø´ÙÙÙ Ø¨ÙØ±Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000006",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "195",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "195",
+            "2": "195",
+            "3": "195"
+        }
+    },
+    {
+        "item_sku": "7",
+        "item_name": "Chocolate Fudge - 5 inch",
+        "item_arabic_name": "Ø´ÙÙÙÙØ§ØªØ© ÙØ§Ø¯Ø¬ - 5 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Perfect for dark chocolate lovers. Multiple sizes available",
+        "item_arabic_description": "Ø´ÙÙÙÙØ§ØªØ© ÙØ§Ø¯Ø¬ - 5 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000007",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "135",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "135",
+            "2": "135",
+            "3": "135"
+        }
+    },
+    {
+        "item_sku": "8",
+        "item_name": "Chocolate Fudge - 6 inch",
+        "item_arabic_name": "Ø´ÙÙÙÙØ§ØªØ© ÙØ§Ø¯Ø¬ - 6 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Perfect for dark chocolate lovers. Multiple sizes available",
+        "item_arabic_description": "Ø´ÙÙÙÙØ§ØªØ© ÙØ§Ø¯Ø¬ - 6 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000008",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "185",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "185",
+            "2": "185",
+            "3": "185"
+        }
+    },
+    {
+        "item_sku": "9",
+        "item_name": "Chocolate Fudge - 8 inch",
+        "item_arabic_name": "Ø´ÙÙÙÙØ§ØªØ© ÙØ§Ø¯Ø¬ - 8 Ø§ÙØ´",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Perfect for dark chocolate lovers. Multiple sizes available",
+        "item_arabic_description": "Ø´ÙÙÙÙØ§ØªØ© ÙØ§Ø¯Ø¬ - 8 Ø§ÙØ´",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000009",
+        "item_category_id": "7",
+        "item_category_name": "Signature Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "210",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "210",
+            "2": "210",
+            "3": "210"
+        }
+    },
+    {
+        "item_sku": "11096",
+        "item_name": "Classic San Sabastian Cheesecake (Basque)",
+        "item_arabic_name": "ÙÙØ§Ø³ÙÙ Ø³Ø§Ù Ø³Ø§Ø¨Ø§Ø³ØªÙØ§Ù ØªØ´ÙØ² ÙÙÙ (Ø§ÙØ¨Ø§Ø³Ù)",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Classic San Sabastian Burnt Basque Cheesecake",
+        "item_arabic_description": "ÙÙØ§Ø³ÙÙ Ø³Ø§Ù Ø³Ø§Ø¨Ø§Ø³ØªÙØ§Ù ØªØ´ÙØ² ÙÙÙ (Ø§ÙØ¨Ø§Ø³Ù)",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011096",
+        "item_category_id": "8",
+        "item_category_name": "Cheese Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "180",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "180",
+            "2": "180",
+            "3": "180"
+        }
+    },
+    {
+        "item_sku": "11097",
+        "item_name": "Nutella Drip San Sabastian Basque Cheesecake",
+        "item_arabic_name": "ÙÙØªÙÙØ§ Ø¨Ø§ÙØªÙÙÙØ· Ø³Ø§Ù Ø³Ø§Ø¨Ø§Ø³ØªÙØ§Ù ØªØ´ÙØ² ÙÙÙ Ø§ÙØ¨Ø§Ø³Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "The famous San Sabastian Burnt Basque Cheesecake with Nutella Sauce",
+        "item_arabic_description": "ÙÙØªÙÙØ§ Ø¨Ø§ÙØªÙÙÙØ· Ø³Ø§Ù Ø³Ø§Ø¨Ø§Ø³ØªÙØ§Ù ØªØ´ÙØ² ÙÙÙ Ø§ÙØ¨Ø§Ø³Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011097",
+        "item_category_id": "8",
+        "item_category_name": "Cheese Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "210",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "210",
+            "2": "210",
+            "3": "210"
+        }
+    },
+    {
+        "item_sku": "11098",
+        "item_name": "Berry San Sabastian Basque Cheesecake",
+        "item_arabic_name": "ØªØ´ÙØ² ÙÙÙ Ø¨ÙØ±Ù Ø³Ø§Ù Ø³Ø§Ø¨Ø§Ø³ØªÙØ§Ù Ø§ÙØ¨Ø§Ø³ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "The famous San Sabastian Burnt Basque Cheesecake with Fresh berries on top",
+        "item_arabic_description": "ØªØ´ÙØ² ÙÙÙ Ø¨ÙØ±Ù Ø³Ø§Ù Ø³Ø§Ø¨Ø§Ø³ØªÙØ§Ù Ø§ÙØ¨Ø§Ø³ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011098",
+        "item_category_id": "8",
+        "item_category_name": "Cheese Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "210",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "210",
+            "2": "210",
+            "3": "210"
+        }
+    },
+    {
+        "item_sku": "22",
+        "item_name": "Nutella Cheesecake",
+        "item_arabic_name": "ØªØ´ÙØ² ÙÙÙ ÙÙØªÙÙØ§",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Is there anything that doesnt taste good with Nutella? Size: 6 inch Serving: 6 people Weight: 1kg",
+        "item_arabic_description": "ØªØ´ÙØ² ÙÙÙ ÙÙØªÙÙØ§",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000022",
+        "item_category_id": "8",
+        "item_category_name": "Cheese Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "25",
+        "item_name": "Box of Four Cupcakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ ÙÙ Ø§Ø±Ø¨Ø¹ ÙØ¨ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Share goodness with friends",
+        "item_arabic_description": "Ø¨ÙÙØ³ ÙÙ Ø§Ø±Ø¨Ø¹ ÙØ¨ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000025",
+        "item_category_id": "9",
+        "item_category_name": "Box of Cupcakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "56",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "56",
+            "2": "56",
+            "3": "56"
+        }
+    },
+    {
+        "item_sku": "26",
+        "item_name": "Box of Six Cupcakes",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© Ø³ØªØ© ÙØ¨ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of Six Cupcakes",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© Ø³ØªØ© ÙØ¨ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000026",
+        "item_category_id": "9",
+        "item_category_name": "Box of Cupcakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "81",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "81",
+            "2": "81",
+            "3": "81"
+        }
+    },
+    {
+        "item_sku": "27",
+        "item_name": "Box of 12 Cupcakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ 12 ÙØ¨ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of 12 Cupcakes",
+        "item_arabic_description": "Ø¨ÙÙØ³ 12 ÙØ¨ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000027",
+        "item_category_id": "9",
+        "item_category_name": "Box of Cupcakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "156",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "156",
+            "2": "156",
+            "3": "156"
+        }
+    },
+    {
+        "item_sku": "29",
+        "item_name": "Chocolate Cupcake",
+        "item_arabic_name": "ÙØ¨ ÙÙÙ Ø´ÙÙÙÙØ§ØªØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Super Moist. Super Tasty",
+        "item_arabic_description": "ÙØ¨ ÙÙÙ Ø´ÙÙÙÙØ§ØªØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000029",
+        "item_category_id": "10",
+        "item_category_name": "Single Cupcake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "15",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "15",
+            "2": "15",
+            "3": "15"
+        }
+    },
+    {
+        "item_sku": "30",
+        "item_name": "Lotus Cupcake",
+        "item_arabic_name": "ÙØ¨ ÙÙÙ ÙÙØªØ³",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Vanilla sponge with Speculoos filling",
+        "item_arabic_description": "ÙØ¨ ÙÙÙ ÙÙØªØ³",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000030",
+        "item_category_id": "10",
+        "item_category_name": "Single Cupcake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "15",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "15",
+            "2": "15",
+            "3": "15"
+        }
+    },
+    {
+        "item_sku": "31",
+        "item_name": "Oreo Cupcake",
+        "item_arabic_name": "ÙØ¨ ÙÙÙ Ø£ÙØ±ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Oreo Cupcake",
+        "item_arabic_description": "ÙØ¨ ÙÙÙ Ø£ÙØ±ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000031",
+        "item_category_id": "10",
+        "item_category_name": "Single Cupcake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "15",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "15",
+            "2": "15",
+            "3": "15"
+        }
+    },
+    {
+        "item_sku": "32",
+        "item_name": "Red Velvet Cupcake",
+        "item_arabic_name": "Ø§ÙÙØ¹ÙØ© Ø§ÙØ­ÙØ±Ø§Ø¡ ØªØ´Ø¨Ù Ø§ÙÙØ®ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Red Velvet Cupcake",
+        "item_arabic_description": "Ø§ÙÙØ¹ÙØ© Ø§ÙØ­ÙØ±Ø§Ø¡ ØªØ´Ø¨Ù Ø§ÙÙØ®ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000032",
+        "item_category_id": "10",
+        "item_category_name": "Single Cupcake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "15",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "15",
+            "2": "15",
+            "3": "15"
+        }
+    },
+    {
+        "item_sku": "33",
+        "item_name": "Salted Caramel Cupcake",
+        "item_arabic_name": "ÙØ¨ ÙÙÙ ÙØ±Ø§ÙÙÙ ÙÙÙØ­",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Salted Caramel Cupcake",
+        "item_arabic_description": "ÙØ¨ ÙÙÙ ÙØ±Ø§ÙÙÙ ÙÙÙØ­",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000033",
+        "item_category_id": "10",
+        "item_category_name": "Single Cupcake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "15",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "15",
+            "2": "15",
+            "3": "15"
+        }
+    },
+    {
+        "item_sku": "34",
+        "item_name": "Vanilla Cookie Dough Cupcake",
+        "item_arabic_name": "ÙØ¨ ÙÙÙ ÙØ§ÙÙÙÙØ§ Ø¨Ø¹Ø¬ÙÙ Ø§ÙÙÙÙÙØ²",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "What a Combo",
+        "item_arabic_description": "ÙØ¨ ÙÙÙ ÙØ§ÙÙÙÙØ§ Ø¨Ø¹Ø¬ÙÙ Ø§ÙÙÙÙÙØ²",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000034",
+        "item_category_id": "10",
+        "item_category_name": "Single Cupcake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "15",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "15",
+            "2": "15",
+            "3": "15"
+        }
+    },
+    {
+        "item_sku": "11111",
+        "item_name": "Chocolate and Peanut Butter Eggless Cake Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© ÙØ¹ÙØ© Ø§ÙØ´ÙÙÙÙØ§ØªØ© ÙØ²Ø¨Ø¯Ø© Ø§ÙÙÙÙ Ø§ÙØ³ÙØ¯Ø§ÙÙ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate and Peanut Butter Eggless Cake Jar",
+        "item_arabic_description": "Ø¬Ø±Ø© ÙØ¹ÙØ© Ø§ÙØ´ÙÙÙÙØ§ØªØ© ÙØ²Ø¨Ø¯Ø© Ø§ÙÙÙÙ Ø§ÙØ³ÙØ¯Ø§ÙÙ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011111",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "11112",
+        "item_name": "Oreo Eggless Cake Jar",
+        "item_arabic_name": "Ø¬Ø§Ø± ÙÙÙ Ø£ÙØ±ÙÙ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Oreo Eggless Cake Jar",
+        "item_arabic_description": "Ø¬Ø§Ø± ÙÙÙ Ø£ÙØ±ÙÙ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011112",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "11113",
+        "item_name": "Lemon Cake Jar",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Lemon Cake Jar",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011113",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "11114",
+        "item_name": "Fruit Cake Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© ÙØ¹ÙØ© Ø§ÙÙØ§ÙÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Fruit Cake Jar",
+        "item_arabic_description": "Ø¬Ø±Ø© ÙØ¹ÙØ© Ø§ÙÙØ§ÙÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011114",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "35",
+        "item_name": "Dark Mocha Fudge Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© ÙÙÙØ§ ÙØ§Ø¯Ø¬ Ø¯Ø§Ø±Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "The sweetness of chocolate paired with the bitterness of coffee - A match made by Cupid himself",
+        "item_arabic_description": "Ø¬Ø±Ø© ÙÙÙØ§ ÙØ§Ø¯Ø¬ Ø¯Ø§Ø±Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000035",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "36",
+        "item_name": "Chocolate Salted Caramel Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© Ø§ÙØ´ÙÙÙÙØ§ØªØ© ÙØ§ÙÙØ±Ø§ÙÙÙ Ø§ÙÙÙÙØ­",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate sponge with ooye-gooey Salted Caramel Filling.",
+        "item_arabic_description": "Ø¬Ø±Ø© Ø§ÙØ´ÙÙÙÙØ§ØªØ© ÙØ§ÙÙØ±Ø§ÙÙÙ Ø§ÙÙÙÙØ­",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000036",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "37",
+        "item_name": "Hazelnut Dream Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Moist Chocolate Cake. Nutella is filled so generously that it barely stays in.",
+        "item_arabic_description": "Ø¬Ø±Ø© Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000037",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "38",
+        "item_name": "Black Forest Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© Ø§ÙØºØ§Ø¨Ø© Ø§ÙØ³ÙØ¯Ø§Ø¡",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Probably the most popular cake flavor - but taken to the next level",
+        "item_arabic_description": "Ø¬Ø±Ø© Ø§ÙØºØ§Ø¨Ø© Ø§ÙØ³ÙØ¯Ø§Ø¡",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000038",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "39",
+        "item_name": "Chocolate Fudge Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© ÙØ§Ø¯Ø¬ Ø´ÙÙÙÙØ§ØªØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Perfect for dark chocolate lovers.",
+        "item_arabic_description": "Ø¬Ø±Ø© ÙØ§Ø¯Ø¬ Ø´ÙÙÙÙØ§ØªØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000039",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "40",
+        "item_name": "Red Velvet Jar",
+        "item_arabic_name": "Ø¬Ø±Ø© Ø±ÙØ¯ ÙÙÙÙÙØª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Red velvet sponge with delectable cream cheese frosting.",
+        "item_arabic_description": "Ø¬Ø±Ø© Ø±ÙØ¯ ÙÙÙÙÙØª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000040",
+        "item_category_id": "11",
+        "item_category_name": "Single Cake - Jar",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "22",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "22",
+            "2": "22",
+            "3": "22"
+        }
+    },
+    {
+        "item_sku": "41",
+        "item_name": "Box of Four Jars",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© ÙÙ Ø£Ø±Ø¨Ø¹ Ø¨Ø±Ø·ÙØ§ÙØ§Øª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of Four Jars",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© ÙÙ Ø£Ø±Ø¨Ø¹ Ø¨Ø±Ø·ÙØ§ÙØ§Øª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000041",
+        "item_category_id": "12",
+        "item_category_name": "Box of Cake-Jars",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "84",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "84",
+            "2": "84",
+            "3": "84"
+        }
+    },
+    {
+        "item_sku": "42",
+        "item_name": "Box of Six Jars",
+        "item_arabic_name": "ØµÙØ¯ÙÙ ÙÙ Ø³ØªØ© Ø¨Ø±Ø·ÙØ§ÙØ§Øª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of Six Jars",
+        "item_arabic_description": "ØµÙØ¯ÙÙ ÙÙ Ø³ØªØ© Ø¨Ø±Ø·ÙØ§ÙØ§Øª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000042",
+        "item_category_id": "12",
+        "item_category_name": "Box of Cake-Jars",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "123",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "123",
+            "2": "123",
+            "3": "123"
+        }
+    },
+    {
+        "item_sku": "43",
+        "item_name": "Box of 12 Jars",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© Ø¨ÙØ§ 12 Ø¨Ø±Ø·ÙØ§Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of 12 Jars",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© Ø¨ÙØ§ 12 Ø¨Ø±Ø·ÙØ§Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000043",
+        "item_category_id": "12",
+        "item_category_name": "Box of Cake-Jars",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "240",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "240",
+            "2": "240",
+            "3": "240"
+        }
+    },
+    {
+        "item_sku": "44",
+        "item_name": "Mini Lotus Cheesecake",
+        "item_arabic_name": "ÙÙÙÙ ÙÙØªØ³ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Mini Lotus Cheesecake",
+        "item_arabic_description": "ÙÙÙÙ ÙÙØªØ³ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000044",
+        "item_category_id": "13",
+        "item_category_name": "Single Cheesecake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "20",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "20",
+            "2": "20",
+            "3": "20"
+        }
+    },
+    {
+        "item_sku": "45",
+        "item_name": "Mini White Chocolate &amp; Strawberry Cheesecake",
+        "item_arabic_name": "ÙÙÙÙ Ø´ÙÙÙÙØ§ØªØ© Ø¨ÙØ¶Ø§Ø¡ ÙØªØ´ÙØ² ÙÙÙ ÙØ±Ø§ÙÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Mini White Chocolate and Strawberry Cheesecake",
+        "item_arabic_description": "ÙÙÙÙ Ø´ÙÙÙÙØ§ØªØ© Ø¨ÙØ¶Ø§Ø¡ ÙØªØ´ÙØ² ÙÙÙ ÙØ±Ø§ÙÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000045",
+        "item_category_id": "13",
+        "item_category_name": "Single Cheesecake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "20",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "20",
+            "2": "20",
+            "3": "20"
+        }
+    },
+    {
+        "item_sku": "46",
+        "item_name": "Mini Nutella Cheesecake",
+        "item_arabic_name": "ÙÙÙÙ ÙÙØªÙÙØ§ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Mini Nutella Cheesecake",
+        "item_arabic_description": "ÙÙÙÙ ÙÙØªÙÙØ§ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000046",
+        "item_category_id": "13",
+        "item_category_name": "Single Cheesecake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "20",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "20",
+            "2": "20",
+            "3": "20"
+        }
+    },
+    {
+        "item_sku": "47",
+        "item_name": "Mini Reeses Cheesecake",
+        "item_arabic_name": "ÙÙÙÙ Ø±ÙØ³ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Mini Reeses Cheesecake",
+        "item_arabic_description": "ÙÙÙÙ Ø±ÙØ³ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000047",
+        "item_category_id": "13",
+        "item_category_name": "Single Cheesecake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "20",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "20",
+            "2": "20",
+            "3": "20"
+        }
+    },
+    {
+        "item_sku": "48",
+        "item_name": "Mini Oreo Cheesecake",
+        "item_arabic_name": "ÙÙÙÙ ØªØ´ÙØ² ÙÙÙ Ø£ÙØ±ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Mini Oreo Cheesecake",
+        "item_arabic_description": "ÙÙÙÙ ØªØ´ÙØ² ÙÙÙ Ø£ÙØ±ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000048",
+        "item_category_id": "13",
+        "item_category_name": "Single Cheesecake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "20",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "20",
+            "2": "20",
+            "3": "20"
+        }
+    },
+    {
+        "item_sku": "71",
+        "item_name": "Mini Mango Cheesecake",
+        "item_arabic_name": "ÙÙÙÙ ØªØ´ÙØ² ÙÙÙ ÙØ§ÙØ¬Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "ÙÙÙÙ ØªØ´ÙØ² ÙÙÙ ÙØ§ÙØ¬Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000071",
+        "item_category_id": "13",
+        "item_category_name": "Single Cheesecake",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "20",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "20",
+            "2": "20",
+            "3": "20"
+        }
+    },
+    {
+        "item_sku": "49",
+        "item_name": "Box of Four Cheesecakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ ÙÙ Ø§Ø±Ø¨Ø¹ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of Four Cheesecakes",
+        "item_arabic_description": "Ø¨ÙÙØ³ ÙÙ Ø§Ø±Ø¨Ø¹ ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000049",
+        "item_category_id": "14",
+        "item_category_name": "Box of Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "76",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "76",
+            "2": "76",
+            "3": "76"
+        }
+    },
+    {
+        "item_sku": "50",
+        "item_name": "Box of Six Cheesecakes",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© Ø³ØªØ© ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of Six Cheesecakes",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© Ø³ØªØ© ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000050",
+        "item_category_id": "14",
+        "item_category_name": "Box of Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "110",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "110",
+            "2": "110",
+            "3": "110"
+        }
+    },
+    {
+        "item_sku": "51",
+        "item_name": "Box of 12 Cheesecakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ 12 ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of 12 Cheesecakes",
+        "item_arabic_description": "Ø¨ÙÙØ³ 12 ØªØ´ÙØ² ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000051",
+        "item_category_id": "14",
+        "item_category_name": "Box of Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "215",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "215",
+            "2": "215",
+            "3": "215"
+        }
+    },
+    {
+        "item_sku": "52",
+        "item_name": "Brookie",
+        "item_arabic_name": "Ø¨Ø±ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Brookie",
+        "item_arabic_description": "Ø¨Ø±ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000052",
+        "item_category_id": "15",
+        "item_category_name": "Single Cookie/Brownie",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "12",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "12",
+            "2": "12",
+            "3": "12"
+        }
+    },
+    {
+        "item_sku": "53",
+        "item_name": "Fudgy Brownie",
+        "item_arabic_name": "ÙÙØ¯Ø¬Ù Ø¨Ø±Ø§ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Fudgy Brownie",
+        "item_arabic_description": "ÙÙØ¯Ø¬Ù Ø¨Ø±Ø§ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000053",
+        "item_category_id": "15",
+        "item_category_name": "Single Cookie/Brownie",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "12",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "12",
+            "2": "12",
+            "3": "12"
+        }
+    },
+    {
+        "item_sku": "54",
+        "item_name": "Chocolate Chip Cookie",
+        "item_arabic_name": "ÙÙÙÙ Ø´ÙÙÙÙØª ØªØ´ÙØ¨",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Sugar, Spice and Everything Nice ",
+        "item_arabic_description": "ÙÙÙÙ Ø´ÙÙÙÙØª ØªØ´ÙØ¨",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000054",
+        "item_category_id": "15",
+        "item_category_name": "Single Cookie/Brownie",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "9",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "9",
+            "2": "9",
+            "3": "9"
+        }
+    },
+    {
+        "item_sku": "55",
+        "item_name": "Box of 6 Brownies",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© 6 Ø¨Ø±Ø§ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Ohhh Soooo Fudgyyy!!",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© 6 Ø¨Ø±Ø§ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000055",
+        "item_category_id": "16",
+        "item_category_name": "Box of Brownies/Cookies",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "66",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "66",
+            "2": "66",
+            "3": "66"
+        }
+    },
+    {
+        "item_sku": "56",
+        "item_name": "Box of 8 Chocolate Chip Cookies",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© 8 ÙØ·Ø¹ ÙÙÙÙØ² Ø´ÙÙÙÙØª ØªØ´ÙØ¨",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Sugar, Spice, and Everything Nice",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© 8 ÙØ·Ø¹ ÙÙÙÙØ² Ø´ÙÙÙÙØª ØªØ´ÙØ¨",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000056",
+        "item_category_id": "16",
+        "item_category_name": "Box of Brownies/Cookies",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "66",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "66",
+            "2": "66",
+            "3": "66"
+        }
+    },
+    {
+        "item_sku": "57",
+        "item_name": "Box of 8 Brookies",
+        "item_arabic_name": "ÙØ±Ø¨Ø¹ 8 Ø¨Ø±ÙÙØ³",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of 8 Brookies",
+        "item_arabic_description": "ÙØ±Ø¨Ø¹ 8 Ø¨Ø±ÙÙØ³",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000057",
+        "item_category_id": "16",
+        "item_category_name": "Box of Brownies/Cookies",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "66",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "66",
+            "2": "66",
+            "3": "88"
+        }
+    },
+    {
+        "item_sku": "62",
+        "item_name": "Eggless Chocolate &amp; Peanut Butter Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙØ´ÙÙÙÙØ§ØªØ© Ø§ÙØ®Ø§ÙÙØ© ÙÙ Ø§ÙØ¨ÙØ¶ ÙØ²Ø¨Ø¯Ø© Ø§ÙÙÙÙ Ø§ÙØ³ÙØ¯",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate sponge with peanut butter filling Size 6 inch 2 layer Serving 4 people Weight 1kg",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙØ´ÙÙÙÙØ§ØªØ© Ø§ÙØ®Ø§ÙÙØ© ÙÙ Ø§ÙØ¨ÙØ¶ ÙØ²Ø¨Ø¯Ø© Ø§ÙÙÙÙ Ø§ÙØ³ÙØ¯",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000062",
+        "item_category_id": "19",
+        "item_category_name": "Eggless Sponge Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "63",
+        "item_name": "Eggless Oreo Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙØ£ÙØ±ÙÙ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate sponge with chunky Oreo cream filling Size 6 inch 2 layer Serving 4 people Weight 1kg",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙØ£ÙØ±ÙÙ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000063",
+        "item_category_id": "19",
+        "item_category_name": "Eggless Sponge Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "64",
+        "item_name": "Eggless Pineapple &amp; Coconut Cake",
+        "item_arabic_name": "ÙÙÙØ© Ø¬ÙØ² Ø§ÙÙÙØ¯ ÙØ§ÙØ£ÙØ§ÙØ§Ø³ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Vanilla sponge with fresh pineapple &amp; coconut ganache make this eggless cake a dream come true Size 6 inch 2 layer Serving 4 people Weight 1kg",
+        "item_arabic_description": "ÙÙÙØ© Ø¬ÙØ² Ø§ÙÙÙØ¯ ÙØ§ÙØ£ÙØ§ÙØ§Ø³ Ø¨Ø¯ÙÙ Ø¨ÙØ¶",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000064",
+        "item_category_id": "19",
+        "item_category_name": "Eggless Sponge Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "20",
+        "item_name": "Lotus Cheesecake",
+        "item_arabic_name": "ØªØ´ÙØ² ÙÙÙ ÙÙØªØ³",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Lotus speculoos flavored cheesecake?? Yes, please. Size: 6 inch Serving: 6 people Weight: 1kg",
+        "item_arabic_description": "ØªØ´ÙØ² ÙÙÙ ÙÙØªØ³",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000020",
+        "item_category_id": "20",
+        "item_category_name": "Eggless Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "21",
+        "item_name": "Mango Cheesecake",
+        "item_arabic_name": "ØªØ´ÙØ² ÙÙÙ ÙØ§ÙØ¬Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Mango cheesecake base topped with home made mango jam and whipped cream Size: 7 inch Serving: 6 people Weight: 1kg",
+        "item_arabic_description": "ØªØ´ÙØ² ÙÙÙ ÙØ§ÙØ¬Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000021",
+        "item_category_id": "20",
+        "item_category_name": "Eggless Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "23",
+        "item_name": "Reeses Cheesecake",
+        "item_arabic_name": "ØªØ´ÙØ² ÙÙÙ Ø±ÙØ³ÙØ³",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Shout-out to all the peanut butter lovers out there! Size: 6 inch Serving: 6 people Weight: 1kg",
+        "item_arabic_description": "ØªØ´ÙØ² ÙÙÙ Ø±ÙØ³ÙØ³",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000023",
+        "item_category_id": "20",
+        "item_category_name": "Eggless Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "24",
+        "item_name": "White Chocolate and Strawberry Cheesecake",
+        "item_arabic_name": "ØªØ´ÙØ² ÙÙÙ Ø§ÙØ´ÙÙÙÙØ§ØªØ© Ø§ÙØ¨ÙØ¶Ø§Ø¡ ÙØ§ÙÙØ±Ø§ÙÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "White Chocolate Cheesecake topped with homemade strawberry jam and fresh strawberries. Size: 6 inch Serving: 6 people Weight: 1kg",
+        "item_arabic_description": "ØªØ´ÙØ² ÙÙÙ Ø§ÙØ´ÙÙÙÙØ§ØªØ© Ø§ÙØ¨ÙØ¶Ø§Ø¡ ÙØ§ÙÙØ±Ø§ÙÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000024",
+        "item_category_id": "20",
+        "item_category_name": "Eggless Cheesecakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "65",
+        "item_name": "25 Assorted Halloween Themed Mini Cupcakes",
+        "item_arabic_name": "25 ÙØ¨ ÙÙÙ ØµØºÙØ± Ø¨Ø·Ø§Ø¨Ø¹ Ø§ÙÙØ§ÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Specially designed spooky 25 Assorted mini cupcakes with special Spider web wrapping makes this an ideal gift box for the Halloween season",
+        "item_arabic_description": "25 ÙØ¨ ÙÙÙ ØµØºÙØ± Ø¨Ø·Ø§Ø¨Ø¹ Ø§ÙÙØ§ÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000065",
+        "item_category_id": "21",
+        "item_category_name": "HALLOWEEN SPECIALS",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "230",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "230",
+            "2": "230",
+            "3": "230"
+        }
+    },
+    {
+        "item_sku": "66",
+        "item_name": "Box of 12 Halloween Cupcakes",
+        "item_arabic_name": "ÙØ±Ø¨Ø¹ 12 ÙØ¨ ÙÙÙ Ø§ÙÙØ§ÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Specially designed spooky box of 12 cupcakes with special Spider web wrapping makes this an ideal gift box for the Halloween season",
+        "item_arabic_description": "ÙØ±Ø¨Ø¹ 12 ÙØ¨ ÙÙÙ Ø§ÙÙØ§ÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000066",
+        "item_category_id": "21",
+        "item_category_name": "HALLOWEEN SPECIALS",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "210",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "210",
+            "2": "210",
+            "3": "210"
+        }
+    },
+    {
+        "item_sku": "67",
+        "item_name": "Box of 6 Halloween Cupcakes",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© ÙÙ 6 ÙØ¹ÙØ§Øª Ø§ÙÙØ§ÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Specially designed spooky box of 6 cupcakes with special Spider web wrapping makes this an ideal gift box for the Halloween season",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© ÙÙ 6 ÙØ¹ÙØ§Øª Ø§ÙÙØ§ÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000067",
+        "item_category_id": "21",
+        "item_category_name": "HALLOWEEN SPECIALS",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "120",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "120",
+            "2": "120",
+            "3": "120"
+        }
+    },
+    {
+        "item_sku": "68",
+        "item_name": "Bleeding Skulls Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© ÙØ²ÙÙ Ø§ÙØ¬ÙØ§Ø¬Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Hazelnut dream cake topped with white chocolate skulls with special Spider web wrapping makes this an ideal gift box for the Halloween season Weight  2kg Serving  12 people",
+        "item_arabic_description": "ÙØ¹ÙØ© ÙØ²ÙÙ Ø§ÙØ¬ÙØ§Ø¬Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000068",
+        "item_category_id": "21",
+        "item_category_name": "HALLOWEEN SPECIALS",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "0",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "0",
+            "2": "0",
+            "3": "275"
+        }
+    },
+    {
+        "item_sku": "69",
+        "item_name": "Spiders Den Cake",
+        "item_arabic_name": "Ø¯Ù ÙÙÙ Ø§ÙØ¹ÙØ§ÙØ¨",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate Fudge cake toy spiders with special Spider web wrapping makes this an ideal gift box for the Halloween season Weight  1kg Serving  4 people",
+        "item_arabic_description": "Ø¯Ù ÙÙÙ Ø§ÙØ¹ÙØ§ÙØ¨",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000069",
+        "item_category_id": "21",
+        "item_category_name": "HALLOWEEN SPECIALS",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "0",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "0",
+            "2": "0",
+            "3": "160"
+        }
+    },
+    {
+        "item_sku": "70",
+        "item_name": "Halloween Porch Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙØ´Ø±ÙØ© ÙØ§ÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Carrot cake topped with chocolate skulls Special Spider web wrapping makes this an ideal gift box for the Halloween season Weight  15kg Serving  8 people",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙØ´Ø±ÙØ© ÙØ§ÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000070",
+        "item_category_id": "21",
+        "item_category_name": "HALLOWEEN SPECIALS",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "0",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "0",
+            "2": "0",
+            "3": "230"
+        }
+    },
+    {
+        "item_sku": "11103",
+        "item_name": "Happy Birthday Cupcakes Box of 6",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© ÙØ¨ ÙÙÙ Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ ÙÙÙÙØ© ÙÙ 6 ÙØ·Ø¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "A Gift Box of 6 Assorted Cupcakes with Happy Birthday Message",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© ÙØ¨ ÙÙÙ Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ ÙÙÙÙØ© ÙÙ 6 ÙØ·Ø¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011103",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "90",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "90",
+            "2": "90",
+            "3": "90"
+        }
+    },
+    {
+        "item_sku": "11107",
+        "item_name": "Pink Happy Birthday Box 25 of Assorted Mini Cupcakes",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ Ø¨Ø§ÙÙÙÙ Ø§ÙÙØ±Ø¯Ù ØªØ­ØªÙÙ Ø¹ÙÙ 25 ÙØ·Ø¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "An assortment of mini cupcakes in Lotus Red Velvet Oero Chocolate &amp; Salted Caramel Flavours",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ Ø¨Ø§ÙÙÙÙ Ø§ÙÙØ±Ø¯Ù ØªØ­ØªÙÙ Ø¹ÙÙ 25 ÙØ·Ø¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011107",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "160",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "160",
+            "2": "160",
+            "3": "160"
+        }
+    },
+    {
+        "item_sku": "11108",
+        "item_name": "Blue Happy Birthday Box 25 of Assorted Mini Cupcakes",
+        "item_arabic_name": "ØµÙØ¯ÙÙ Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ Ø£Ø²Ø±Ù ÙÙÙÙ ÙÙ 25 ÙØ·Ø¹Ø© ÙØ¨ ÙÙÙ Øµ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "An assortment of mini cupcakes in Lotus Red Velvet Oero Chocolate &amp; Salted Caramel Flavours",
+        "item_arabic_description": "ØµÙØ¯ÙÙ Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ Ø£Ø²Ø±Ù ÙÙÙÙ ÙÙ 25 ÙØ·Ø¹Ø© ÙØ¨ ÙÙÙ Øµ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011108",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "160",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "160",
+            "2": "160",
+            "3": "160"
+        }
+    },
+    {
+        "item_sku": "11109",
+        "item_name": "Its a Girl Box 25 of Assorted Mini Cupcakes",
+        "item_arabic_name": "Ø¥ÙÙØ§ Ø¹ÙØ¨Ø© ÙØªØ§Ø© 25 ÙÙ Ø§ÙÙØ¹Ù Ø§ÙØµØºÙØ± Ø§ÙÙØªÙÙØ¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "An assortment of mini cupcakes in Lotus Red Velvet Oero Chocolate &amp; Salted Caramel Flavours",
+        "item_arabic_description": "Ø¥ÙÙØ§ Ø¹ÙØ¨Ø© ÙØªØ§Ø© 25 ÙÙ Ø§ÙÙØ¹Ù Ø§ÙØµØºÙØ± Ø§ÙÙØªÙÙØ¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011109",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "160",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "160",
+            "2": "160",
+            "3": "160"
+        }
+    },
+    {
+        "item_sku": "11110",
+        "item_name": "Its a Boy Box 25 of Assorted Mini Cupcakes",
+        "item_arabic_name": "ØµÙØ¯ÙÙ Ø¥ÙÙ ØµØ¨Ù 25 ÙÙ Ø§ÙÙØ¹Ù Ø§ÙØµØºÙØ± Ø§ÙÙØªÙÙØ¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "An assortment of mini cupcakes in Lotus Red Velvet Oero Chocolate &amp; Salted Caramel Flavours",
+        "item_arabic_description": "ØµÙØ¯ÙÙ Ø¥ÙÙ ØµØ¨Ù 25 ÙÙ Ø§ÙÙØ¹Ù Ø§ÙØµØºÙØ± Ø§ÙÙØªÙÙØ¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011110",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "160",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "160",
+            "2": "160",
+            "3": "160"
+        }
+    },
+    {
+        "item_sku": "28",
+        "item_name": "Box of 25 Assorted Mini Cupcakes",
+        "item_arabic_name": "ØµÙØ¯ÙÙ ÙÙ 25 ÙÙÙÙ ÙØ¨ ÙÙÙ ÙØªÙÙØ¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of 25 Assorted Mini Cupcakes",
+        "item_arabic_description": "ØµÙØ¯ÙÙ ÙÙ 25 ÙÙÙÙ ÙØ¨ ÙÙÙ ÙØªÙÙØ¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000028",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "150",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "150",
+            "2": "150",
+            "3": "150"
+        }
+    },
+    {
+        "item_sku": "72",
+        "item_name": "Box of 25 Assorted Truffles",
+        "item_arabic_name": "ÙØ¹ÙØ© ÙØ²ÙÙ Ø§ÙØ¬ÙØ§Ø¬Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Box of 25 indulgent melt-in-your-mouth chocolate truffles in 5 assorted flavors - lotus wafer crunch cocoa pistachio coconut. Perfect for gifting or day snacking. Warning - you wont be able to stop at one",
+        "item_arabic_description": "ÙØ¹ÙØ© ÙØ²ÙÙ Ø§ÙØ¬ÙØ§Ø¬Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000072",
+        "item_category_id": "22",
+        "item_category_name": "GIFT BOXES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "160",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "160",
+            "2": "0",
+            "3": "160"
+        }
+    },
+    {
+        "item_sku": "73",
+        "item_name": "National Day Black-Forest Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø¨ÙØ§Ù ÙÙØ±Ø³Øª ÙÙÙÙÙ Ø§ÙÙØ·ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "National Day themed Black-forest cake Weight  2kg Serving  12 people",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø¨ÙØ§Ù ÙÙØ±Ø³Øª ÙÙÙÙÙ Ø§ÙÙØ·ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000073",
+        "item_category_id": "23",
+        "item_category_name": "NATIONAL DAY CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "230",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "230",
+            "2": "230",
+            "3": "230"
+        }
+    },
+    {
+        "item_sku": "74",
+        "item_name": "National Day Hazelnut Dream Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "UAE National day themed Hazelnut Dream Cake Weight  15kg Serving  8 people",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø¯Ø±ÙÙ Ø§ÙØ¨ÙØ¯Ù Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000074",
+        "item_category_id": "23",
+        "item_category_name": "NATIONAL DAY CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "200",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "200",
+            "2": "200",
+            "3": "200"
+        }
+    },
+    {
+        "item_sku": "75",
+        "item_name": "National Day Chocolate Fudge Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© ÙØ§Ø¯Ø¬ Ø´ÙÙÙÙØ§ØªØ© Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "National Day themed Chocolate Fudge Cake Weight  1kg Serving  4 to 6 people",
+        "item_arabic_description": "ÙØ¹ÙØ© ÙØ§Ø¯Ø¬ Ø´ÙÙÙÙØ§ØªØ© Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000075",
+        "item_category_id": "23",
+        "item_category_name": "NATIONAL DAY CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "170",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "170",
+            "2": "170",
+            "3": "170"
+        }
+    },
+    {
+        "item_sku": "76",
+        "item_name": "National Day Box of 25 Assorted Mini Cupcakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ 25 ÙØ¨ ÙÙÙ ØµØºÙØ± ÙØªÙÙØ¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "National Day Box of 25 Assorted Mini Cupcakes",
+        "item_arabic_description": "Ø¨ÙÙØ³ Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ 25 ÙØ¨ ÙÙÙ ØµØºÙØ± ÙØªÙÙØ¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000076",
+        "item_category_id": "23",
+        "item_category_name": "NATIONAL DAY CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "175",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "175",
+            "2": "175",
+            "3": "175"
+        }
+    },
+    {
+        "item_sku": "77",
+        "item_name": "National Day Box of 12 Cupcakes with Toppers",
+        "item_arabic_name": "ØµÙØ¯ÙÙ Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ 12 ÙØ¨ ÙÙÙ ÙØ¹ Ø§ÙÙØ¨Ø¹Ø§Øª Ø§ÙØ¹Ø§ÙÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "National Day Box of 12 Cupcakes with Toppers",
+        "item_arabic_description": "ØµÙØ¯ÙÙ Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ 12 ÙØ¨ ÙÙÙ ÙØ¹ Ø§ÙÙØ¨Ø¹Ø§Øª Ø§ÙØ¹Ø§ÙÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000077",
+        "item_category_id": "23",
+        "item_category_name": "NATIONAL DAY CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "151",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "151",
+            "2": "151",
+            "3": "151"
+        }
+    },
+    {
+        "item_sku": "78",
+        "item_name": "National Day Box of 12 Cupcakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ 12 ÙØ¨ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "National Day Box of 12 Cupcakes",
+        "item_arabic_description": "Ø¨ÙÙØ³ Ø§ÙÙÙÙ Ø§ÙÙØ·ÙÙ 12 ÙØ¨ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000078",
+        "item_category_id": "23",
+        "item_category_name": "NATIONAL DAY CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "151",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "151",
+            "2": "151",
+            "3": "151"
+        }
+    },
+    {
+        "item_sku": "79",
+        "item_name": "Custom Cakes",
+        "item_arabic_name": "",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000079",
+        "item_category_id": "24",
+        "item_category_name": "Custom Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "0",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "0",
+            "2": "0",
+            "3": "0"
+        }
+    },
+    {
+        "item_sku": "80",
+        "item_name": "Christmas Hazelnut Dream Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯ Ø­ÙÙ Ø§ÙØ¨ÙØ¯Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Christmas Hazelnut Dream Cake Weight  2kg Serving  12 people",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯ Ø­ÙÙ Ø§ÙØ¨ÙØ¯Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000080",
+        "item_category_id": "25",
+        "item_category_name": "CHRISTMAS SPECIAL CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "250",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "250",
+            "2": "0",
+            "3": "250"
+        }
+    },
+    {
+        "item_sku": "81",
+        "item_name": "Christmas Chocolate &amp; Salted Caramel Cake",
+        "item_arabic_name": "Ø´ÙÙÙÙØ§ØªØ© Ø§ÙÙØ±ÙØ³ÙØ§Ø³ ÙÙÙÙ Ø§ÙÙØ±Ø§ÙÙÙ Ø§ÙÙÙÙØ­",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Christmas Chocolate &amp; Salted Caramel Cake Weight  1.5kg Serving  8 people",
+        "item_arabic_description": "Ø´ÙÙÙÙØ§ØªØ© Ø§ÙÙØ±ÙØ³ÙØ§Ø³ ÙÙÙÙ Ø§ÙÙØ±Ø§ÙÙÙ Ø§ÙÙÙÙØ­",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000081",
+        "item_category_id": "25",
+        "item_category_name": "CHRISTMAS SPECIAL CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "210",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "210",
+            "2": "0",
+            "3": "210"
+        }
+    },
+    {
+        "item_sku": "82",
+        "item_name": "Christmas Log Black Forest Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙØºØ§Ø¨Ø© Ø§ÙØ³ÙØ¯Ø§Ø¡ ÙØ¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Christmas Log Black Forest Cake Weight  1kg Serving  4 to 6 people",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙØºØ§Ø¨Ø© Ø§ÙØ³ÙØ¯Ø§Ø¡ ÙØ¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000082",
+        "item_category_id": "25",
+        "item_category_name": "CHRISTMAS SPECIAL CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "175",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "175",
+            "2": "0",
+            "3": "175"
+        }
+    },
+    {
+        "item_sku": "83",
+        "item_name": "Christmas Special Box of 25 Assorted Mini Cupcakes",
+        "item_arabic_name": "Ø¨ÙÙØ³ Ø§ÙÙØ±ÙØ³ÙØ§Ø³ Ø§ÙØ®Ø§Øµ ÙÙÙÙ ÙÙ 25 ÙØ¨ ÙÙÙ ØµØºÙØ± ÙØªÙÙØ¹",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Christmas Special Box of 25 Assorted Mini Cupcakes",
+        "item_arabic_description": "Ø¨ÙÙØ³ Ø§ÙÙØ±ÙØ³ÙØ§Ø³ Ø§ÙØ®Ø§Øµ ÙÙÙÙ ÙÙ 25 ÙØ¨ ÙÙÙ ØµØºÙØ± ÙØªÙÙØ¹",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000083",
+        "item_category_id": "25",
+        "item_category_name": "CHRISTMAS SPECIAL CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "220",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "220",
+            "2": "0",
+            "3": "220"
+        }
+    },
+    {
+        "item_sku": "84",
+        "item_name": "Christmas Special Box of 12 Cupcakes",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© Ø®Ø§ØµØ© ÙØ¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯ ÙÙÙÙØ© ÙÙ 12 ÙØ¨ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Christmas Special Box of 12 Cupcakes",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© Ø®Ø§ØµØ© ÙØ¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯ ÙÙÙÙØ© ÙÙ 12 ÙØ¨ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000084",
+        "item_category_id": "25",
+        "item_category_name": "CHRISTMAS SPECIAL CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "195",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "195",
+            "2": "0",
+            "3": "195"
+        }
+    },
+    {
+        "item_sku": "85",
+        "item_name": "Christmas Special Box of 6 Cupcakes",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© Ø®Ø§ØµØ© ÙØ¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯ ÙÙÙÙØ© ÙÙ 6 ÙØ¨ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Christmas Special Box of 6 Cupcakes",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© Ø®Ø§ØµØ© ÙØ¹ÙØ¯ Ø§ÙÙÙÙØ§Ø¯ ÙÙÙÙØ© ÙÙ 6 ÙØ¨ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00000085",
+        "item_category_id": "25",
+        "item_category_name": "CHRISTMAS SPECIAL CAKES",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "105",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "105",
+            "2": "0",
+            "3": "105"
+        }
+    },
+    {
+        "item_sku": "11085",
+        "item_name": "I Love you Bento Cake",
+        "item_arabic_name": "ÙÙÙØ© Ø¨ÙÙØªÙ Ø£Ø­Ø¨Ù",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate Fudge Flavour Weight 600g",
+        "item_arabic_description": "ÙÙÙØ© Ø¨ÙÙØªÙ Ø£Ø­Ø¨Ù",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011085",
+        "item_category_id": "28",
+        "item_category_name": "Bento Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "99",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "99",
+            "2": "99",
+            "3": "99"
+        }
+    },
+    {
+        "item_sku": "11102",
+        "item_name": "Happy Birthday Lunch Box Bento Cake",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© ØºØ¯Ø§Ø¡ Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ Ø¨ÙÙØªÙ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate Fudge Flavored Lunch Box Bento cake with the Wording  Happy Birthday Approx weight 600g",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© ØºØ¯Ø§Ø¡ Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ Ø¨ÙÙØªÙ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011102",
+        "item_category_id": "28",
+        "item_category_name": "Bento Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "99",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "99",
+            "2": "99",
+            "3": "99"
+        }
+    },
+    {
+        "item_sku": "11104",
+        "item_name": "Your Message Lunch Box Bento Cake",
+        "item_arabic_name": "Ø±Ø³Ø§ÙØªÙ Ø¹ÙØ¨Ø© Ø§ÙØºØ¯Ø§Ø¡ Ø¨ÙÙØªÙ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate Fudge Flavored Lunch Box Bento cake with your message on it Approx weight 600g",
+        "item_arabic_description": "Ø±Ø³Ø§ÙØªÙ Ø¹ÙØ¨Ø© Ø§ÙØºØ¯Ø§Ø¡ Ø¨ÙÙØªÙ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011104",
+        "item_category_id": "28",
+        "item_category_name": "Bento Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "110",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "110",
+            "2": "110",
+            "3": "110"
+        }
+    },
+    {
+        "item_sku": "11105",
+        "item_name": "Happy Anniversary Lunch Box Bento Cake",
+        "item_arabic_name": "Ø¹ÙØ¨Ø© ØºØ¯Ø§Ø¡ Ø§ÙØ°ÙØ±Ù Ø§ÙØ³ÙÙÙØ© Ø§ÙØ³Ø¹ÙØ¯Ø©Ø ÙØ¹ÙØ© Ø¨ÙÙØªÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate Fudge Flavored Lunch Box Bento cake with the Wording  Happy Anniversary Approx weight 600g",
+        "item_arabic_description": "Ø¹ÙØ¨Ø© ØºØ¯Ø§Ø¡ Ø§ÙØ°ÙØ±Ù Ø§ÙØ³ÙÙÙØ© Ø§ÙØ³Ø¹ÙØ¯Ø©Ø ÙØ¹ÙØ© Ø¨ÙÙØªÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011105",
+        "item_category_id": "28",
+        "item_category_name": "Bento Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "99",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "99",
+            "2": "99",
+            "3": "99"
+        }
+    },
+    {
+        "item_sku": "11106",
+        "item_name": "Thank You Lunch Box Bento Cake",
+        "item_arabic_name": "Ø´ÙØ±Ø§ ÙÙ ØµÙØ¯ÙÙ Ø§ÙØºØ¯Ø§Ø¡ Ø¨ÙÙØªÙ ÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Chocolate Fudge Flavored Lunch Box Bento cake with the Wording  Thank You Approx weight 600g",
+        "item_arabic_description": "Ø´ÙØ±Ø§ ÙÙ ØµÙØ¯ÙÙ Ø§ÙØºØ¯Ø§Ø¡ Ø¨ÙÙØªÙ ÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011106",
+        "item_category_id": "28",
+        "item_category_name": "Bento Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "99",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "99",
+            "2": "99",
+            "3": "99"
+        }
+    },
+    {
+        "item_sku": "11116",
+        "item_name": "Happy Anniversary Privy Cake",
+        "item_arabic_name": "ÙØ¹ÙØ© Ø§ÙØ°ÙØ±Ù Ø§ÙØ³ÙÙÙØ© Ø§ÙØ³Ø¹ÙØ¯Ø©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Happy Anniversary Privy Cake. Each Privy Cake is a decadent masterpiece We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside: Happy Anniversary",
+        "item_arabic_description": "ÙØ¹ÙØ© Ø§ÙØ°ÙØ±Ù Ø§ÙØ³ÙÙÙØ© Ø§ÙØ³Ø¹ÙØ¯Ø©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011116",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11117",
+        "item_name": "Itâs a Boy Privy Secret Message Cake",
+        "item_arabic_name": "Ø¥ÙÙØ§ ÙØ¹ÙØ© Ø±Ø³Ø§ÙØ© Ø³Ø±ÙØ© Ø®Ø§ØµØ© Ø¨Ø§ÙØ£ÙÙØ§Ø¯",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Its a Boy Privy Secret Message Cake. Each Privy Cake is a decadent masterpiece We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside: Its a Boy",
+        "item_arabic_description": "Ø¥ÙÙØ§ ÙØ¹ÙØ© Ø±Ø³Ø§ÙØ© Ø³Ø±ÙØ© Ø®Ø§ØµØ© Ø¨Ø§ÙØ£ÙÙØ§Ø¯",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011117",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11118",
+        "item_name": "Happy Birthday Arabic Privy Cake",
+        "item_arabic_name": "Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ ÙØ¹ÙØ© Ø®Ø§ØµØ© Ø§ÙØ¹Ø±Ø¨ÙØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Happy Birthday Arabic Privy Cake. Each Privy Cake is a decadent masterpiece We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside: Happy Birthday in Arabic",
+        "item_arabic_description": "Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ ÙØ¹ÙØ© Ø®Ø§ØµØ© Ø§ÙØ¹Ø±Ø¨ÙØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011118",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11119",
+        "item_name": "Happy Birthday Privy Secret Message Cake",
+        "item_arabic_name": "Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ ÙØ¹ÙØ© Ø§ÙØ±Ø³Ø§ÙØ© Ø§ÙØ³Ø±ÙØ© Ø§ÙØ®Ø§ØµØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Happy Birthday Privy Secret Message Cake. Each Privy Cake is a decadent masterpiece We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside: Happy Birthday",
+        "item_arabic_description": "Ø¹ÙØ¯ ÙÙÙØ§Ø¯ Ø³Ø¹ÙØ¯ ÙØ¹ÙØ© Ø§ÙØ±Ø³Ø§ÙØ© Ø§ÙØ³Ø±ÙØ© Ø§ÙØ®Ø§ØµØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011119",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11120",
+        "item_name": "Soul of my Soul (Arabic) Privy Cake",
+        "item_arabic_name": "ÙÙÙØ© Ø±ÙØ­ Ø±ÙØ­Ù (Ø§ÙØ¹Ø±Ø¨ÙØ©) Ø§ÙØ®Ø§ØµØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Soul of my Soul (Arabic) Privy Cake Each Privy Cake is a decadent masterpiece We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside: Soul of my soul in Arabic",
+        "item_arabic_description": "ÙÙÙØ© Ø±ÙØ­ Ø±ÙØ­Ù (Ø§ÙØ¹Ø±Ø¨ÙØ©) Ø§ÙØ®Ø§ØµØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011120",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11121",
+        "item_name": "I Love You Privy Cake",
+        "item_arabic_name": "Ø£ÙØ§ Ø£Ø­Ø¨Ù ÙØ¹ÙØ© Ø®Ø§ØµØ©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "I Love You Privy Cake Each Privy Cake is a decadent masterpiece. We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside: All of me Loves all of you",
+        "item_arabic_description": "Ø£ÙØ§ Ø£Ø­Ø¨Ù ÙØ¹ÙØ© Ø®Ø§ØµØ©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011121",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11122",
+        "item_name": "Itâs a Girl Privy Secret Message Cake",
+        "item_arabic_name": "Ø¥ÙÙØ§ ÙØ¹ÙØ© Ø®Ø§ØµØ© Ø¨Ø§ÙÙØªØ§Ø©",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Its a Girl Privy Cake. Each Privy Cake is a decadent masterpiece We start with a rich fudgy chocolate cake crafted to perfection with only the finest ingredients Weighing in at 650g Message inside : It&#039;s a Girl",
+        "item_arabic_description": "Ø¥ÙÙØ§ ÙØ¹ÙØ© Ø®Ø§ØµØ© Ø¨Ø§ÙÙØªØ§Ø©",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011122",
+        "item_category_id": "34",
+        "item_category_name": "Privy Secret Message Cakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "125",
+        "item_has_picture": true,
+        "customize": "0",
+        "item_image_address": "../images/cat (7).png",
+        "item_price_list": {
+            "1": "125",
+            "2": "125",
+            "3": "125"
+        }
+    },
+    {
+        "item_sku": "11125",
+        "item_name": "Sooo Choco-Itally - REGULAR",
+        "item_arabic_name": "Ø³ÙÙ Ø´ÙÙÙ-Ø¥ÙØ·Ø§ÙÙØ§",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "Nutella Ferrero Kinder Brownies",
+        "item_arabic_description": "Ø³ÙÙ Ø´ÙÙÙ-Ø¥ÙØ·Ø§ÙÙØ§",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011125",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11126",
+        "item_name": "Lot-us Dance - REGULAR",
+        "item_arabic_name": "Ø±ÙØµØ© ÙÙØ· ÙÙØ§",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø±ÙØµØ© ÙÙØ· ÙÙØ§",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011126",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "28",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "28",
+            "2": "28",
+            "3": "28",
+            "4": "28"
+        }
+    },
+    {
+        "item_sku": "11127",
+        "item_name": "Pistachio Mustachio - REGULAR",
+        "item_arabic_name": "Ø´Ø§Ø±Ø¨ Ø§ÙÙØ³ØªÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø´Ø§Ø±Ø¨ Ø§ÙÙØ³ØªÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011127",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "32",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "32",
+            "2": "32",
+            "3": "32",
+            "4": "32"
+        }
+    },
+    {
+        "item_sku": "11128",
+        "item_name": "Twix and Turns - REGULAR",
+        "item_arabic_name": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011128",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "28",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "28",
+            "2": "28",
+            "3": "28",
+            "4": "28"
+        }
+    },
+    {
+        "item_sku": "11129",
+        "item_name": "Cookie Monster - REGULAR",
+        "item_arabic_name": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011129",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "27",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (2).png",
+        "item_price_list": {
+            "1": "27",
+            "2": "27",
+            "3": "27",
+            "4": "27"
+        }
+    },
+    {
+        "item_sku": "11130",
+        "item_name": "A Million Reese&#039;s to Love - REGULAR",
+        "item_arabic_name": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011130",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11131",
+        "item_name": "No You Tell Her! - REGULAR",
+        "item_arabic_name": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "ØªÙÙÙØ³ ÙØ§ÙÙÙØ¹Ø·ÙØ§Øª",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011131",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "28",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/home-bg.png",
+        "item_price_list": {
+            "1": "28",
+            "2": "28",
+            "3": "28",
+            "4": "28"
+        }
+    },
+    {
+        "item_sku": "11132",
+        "item_name": "Soo Choco-Italy - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011132",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "39",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "39",
+            "2": "39",
+            "3": "39",
+            "4": "39"
+        }
+    },
+    {
+        "item_sku": "11133",
+        "item_name": "Lot-Us Dance - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011133",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "38",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "38",
+            "2": "38",
+            "3": "38",
+            "4": "38"
+        }
+    },
+    {
+        "item_sku": "11134",
+        "item_name": "Pistachio Mustachio - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011134",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "44",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-3.jpg",
+        "item_price_list": {
+            "1": "44",
+            "2": "44",
+            "3": "44",
+            "4": "44"
+        }
+    },
+    {
+        "item_sku": "11135",
+        "item_name": "Twix and Turns - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011135",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "38",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-5.jpg",
+        "item_price_list": {
+            "1": "38",
+            "2": "38",
+            "3": "38",
+            "4": "38"
+        }
+    },
+    {
+        "item_sku": "11136",
+        "item_name": "Cookie Monster - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011136",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "37",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "37",
+            "2": "37",
+            "3": "37",
+            "4": "37"
+        }
+    },
+    {
+        "item_sku": "11137",
+        "item_name": "A Million Reese&#039;s to Love - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011137",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "39",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (6).png",
+        "item_price_list": {
+            "1": "39",
+            "2": "39",
+            "3": "39",
+            "4": "39"
+        }
+    },
+    {
+        "item_sku": "11138",
+        "item_name": "No You Tell Her! - LARGE",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011138",
+        "item_category_id": "37",
+        "item_category_name": "Milk Shakes",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "38",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (8).png",
+        "item_price_list": {
+            "1": "38",
+            "2": "38",
+            "3": "38",
+            "4": "38"
+        }
+    },
+    {
+        "item_sku": "11139",
+        "item_name": "Lotus Pocus",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011139",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (4).png",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11140",
+        "item_name": "Berry Wonderful",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011140",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11141",
+        "item_name": "Nutty Teasers",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011141",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-2.jpg",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11142",
+        "item_name": "Bro-Reo",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011142",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-4.jpg",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11143",
+        "item_name": "Nuts Above Greens",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011143",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "32",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (5).png",
+        "item_price_list": {
+            "1": "32",
+            "2": "32",
+            "3": "32",
+            "4": "32"
+        }
+    },
+    {
+        "item_sku": "11144",
+        "item_name": "The Martian",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011144",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (1).png",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11145",
+        "item_name": "Ferrerolls",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011145",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/cat (3).png",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    },
+    {
+        "item_sku": "11146",
+        "item_name": "I Will Try to Twix You",
+        "item_arabic_name": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_name": "",
+        "item_unique_name": "",
+        "item_description": "",
+        "item_arabic_description": "Ø¨Ø±Ø·ÙØ§Ù ÙÙÙ ÙÙÙÙÙ",
+        "item_chinese_description": "",
+        "item_uom": "Serve",
+        "item_barcode": "00011146",
+        "item_category_id": "38",
+        "item_category_name": "Ice Cream Rolls",
+        "item_has_variant": "0",
+        "item_variant_group_id": "0",
+        "item_qoh": 0,
+        "item_sales_price": "29",
+        "item_has_picture": false,
+        "customize": "0",
+        "item_image_address": "../images/img-1.jpg",
+        "item_price_list": {
+            "1": "29",
+            "2": "29",
+            "3": "29",
+            "4": "29"
+        }
+    }
+]
