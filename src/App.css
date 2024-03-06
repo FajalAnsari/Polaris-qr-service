@@ -91,7 +91,6 @@
 .category-container {
   display: flex;
   overflow-x: auto;
-  white-space: nowrap;
 }
 
 .cat-box {
@@ -117,6 +116,17 @@
   margin: 0px;
   margin-top: 29px;
 }
+
+/* Sub categories  */
+.subcategory-container  .cat-box img{
+  height: 74%;
+  object-fit: cover;
+  width: 81%;
+  border: 2px solid rgb(240, 240, 245);
+  border-radius: 10px;
+}
+
+/* End Sub categories  */
 
 /* Options/ Modifiers  */
 .option-header-img {
@@ -273,6 +283,7 @@
   background: #C30017;
   box-shadow: 0px 15px 45px 0px rgba(0, 0, 0, 0.20);
 }
+
 
 
 

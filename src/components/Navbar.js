@@ -8,7 +8,7 @@ import "../../src/App.css";
 import { useState } from "react";
 
 function Navbar() {
-  const getdata = useSelector((state)=> state.addcartReducer.carts);
+  const getdata = useSelector((state) => state.addcartReducer.carts);
   const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -17,29 +17,62 @@ function Navbar() {
     <>
       <nav className="navbar fixed-top ">
         <div className="container">
-          <button className="btn cart" type="submit"  onClick={toggleMenu}>
-            <img src={isMenuOpen ? cross_icon : hamburger_icon} alt="hamrburger_icon"></img>
+          <button className="btn cart" type="submit" onClick={toggleMenu}>
+            <img
+              src={isMenuOpen ? cross_icon : hamburger_icon}
+              alt="hamrburger_icon"
+            ></img>
           </button>
-           {/* Slide-in menu */}
-      <div className={`menu-container ${isMenuOpen ? 'open' : ''}`} style={{ position: 'fixed', top: 65, left: isMenuOpen ? 0 : '-300px', width: '250px', height: '100%', backgroundColor: '#333', paddingTop: '50px', transition: 'left 0.3s ease' }}>
-        
-        <ul className="list-unstyled text-center">
-        <li className="py-2 text-white"  onClick={() => setMenuOpen(false)}>Menu</li>
-          <li className="py-2 text-white"  onClick={() => setMenuOpen(false)}>Bills</li>
-          <li className="py-2 text-white"  onClick={() => setMenuOpen(false)}>Status</li>
-          <li className="py-2 text-white"  onClick={() => setMenuOpen(false)}>Orders</li>
-
-        </ul>
-      </div>
+          {/* Slide-in menu */}
+          <div
+            className={`menu-container ${isMenuOpen ? "open" : ""}`}
+            style={{
+              position: "fixed",
+              top: 65,
+              left: isMenuOpen ? 0 : "-300px",
+              width: "250px",
+              height: "100%",
+              backgroundColor: "#333",
+              paddingTop: "50px",
+              transition: "left 0.3s ease",
+            }}
+          >
+            <ul className="list-unstyled text-center">
+              <li
+                className="py-2 text-white"
+                onClick={() => setMenuOpen(false)}
+              >
+                Menu
+              </li>
+              <li
+                className="py-2 text-white"
+                onClick={() => setMenuOpen(false)}
+              >
+                Bills
+              </li>
+              <li
+                className="py-2 text-white"
+                onClick={() => setMenuOpen(false)}
+              >
+                Status
+              </li>
+              <li
+                className="py-2 text-white"
+                onClick={() => setMenuOpen(false)}
+              >
+                Orders
+              </li>
+            </ul>
+          </div>
           <Link to={"/"} className="navbar-brand">
             {" "}
             <img src={logo} alt="logo"></img>
           </Link>
           <Link to={"/checkout"}>
-          <button className="btn cart" type="submit">
-            <img src={cart} alt="cart"></img> <sapn>{getdata.length}</sapn>
-          </button>
-         </Link>
+            <button className="btn cart" type="submit">
+              <img src={cart} alt="cart"></img> <sapn>{getdata.length}</sapn>
+            </button>
+          </Link>
         </div>
       </nav>
     </>

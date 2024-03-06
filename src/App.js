@@ -6,6 +6,7 @@ import CheckOut from './components/AddCheckout';
 import User_details from './components/user_details';
 import Waiting from './components/waiting';
 import Confirmed from './components/confirmed';
+import TestuseParam from './components/TestuseParam';
 import Default from './pages/default';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/details" element={<User_details />} />
         <Route path="/waiting" element={<Waiting />} />
         <Route path="/confirmed" element={<Confirmed />} />
+        <Route path="/testuseparam" element={<TestuseParam />} />
         <Route path="*" element={<Default/>} />
       </Routes>
     </Router>

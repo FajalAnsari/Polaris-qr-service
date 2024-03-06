@@ -29,12 +29,12 @@ useEffect(() => {
 
 
   // category image
-  const baseURL = "https://cakeaway.polarispos.com/";
+  const baseImageURL = "https://cakeaway.polarispos.com/";
 
   const getCategoryImage = (itemName) => {
     const filteredImages = imagesCat.filter((item) => !item.item_image_address.includes('#'));
   
-    const categoryItem = filteredImages.map((item) => baseURL + item.item_image_address);
+    const categoryItem = filteredImages.map((item) => baseImageURL + item.item_image_address);
   
     if (categoryItem.length > 0) {
       // console.log('Image URLs:', categoryItem);
@@ -101,8 +101,9 @@ useEffect(() => {
         {selectedCategoryItems.length > 0 ? (
           selectedCategoryItems.map((item) => (
             <div key={item.category_id} className='cat-box text-center' onClick={() => handleCatItems(item.category_id, item.category_name)}>
+             
+              <img src={subcate} alt="data" className="mb-2" />
               <p>{item.category_name}</p>
-              <img src={subcate} alt="data" className="mb-2" style={{ height: "90px", objectFit: "cover", width: "100%"}} />
             </div>
           ))
         ) : null}

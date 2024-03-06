@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Categories from "../components/categoris";
@@ -15,7 +14,7 @@ const MenuPage = () => {
   const [modifierImage, setmodifierImage] = useState("");
   const [limit, setLimit] = useState(12);
   const [itemData, setItemData] = useState([]);
-console.log('ss', selectedItem);
+  console.log("ss", selectedItem);
 
   const dispatch = useDispatch();
 
@@ -24,23 +23,22 @@ console.log('ss', selectedItem);
   //   setShowModal(true);
   // };
 
-  const send = (e)=> {
-      //testing modifier
-    const modifiersForItem = modifierData.filter(modifier => modifier.modifier_sku === e.item_sku);
+  const send = (e) => {
+    //testing modifier
+    const modifiersForItem = modifierData.filter(
+      (modifier) => modifier.modifier_sku === e.item_sku
+    );
     if (modifiersForItem.length > 0) {
       console.log(modifiersForItem);
       // Display modal with modifiers
       setSelectedItem(modifiersForItem);
       setmodifierImage(e.item_image_address);
       setShowModal(true);
-    }
-    else{
+    } else {
       dispatch(ADD(e));
-      console.log('no modifier');
+      console.log("no modifier");
     }
- 
-  
-  }
+  };
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -50,7 +48,6 @@ console.log('ss', selectedItem);
   const handleCategoryClick = (category) => {
     setSelectedCategoryName(category.name);
     setSelectedCategory(category.id); // store the category id
-  
   };
 
   const getShortenedText = (text, length) => {
@@ -82,16 +79,13 @@ console.log('ss', selectedItem);
         );
         const data = await response.json();
         console.log(data);
-      
+
         // test
         const itemData = data.items;
         setmodifierData(data.modifier_category);
-
-
-    
         // if (relevantModifier) {
         //   const relevantModifierCategory = data.modifiers.find(category => category.modifier_category_id === relevantModifier.modifier_id);
-    
+
         //   if (relevantModifierCategory) {
         //     console.log("Relevant Modifier Data:", relevantModifier);
         //     console.log("Relevant Modifier Category Data:", relevantModifierCategory);
@@ -113,14 +107,16 @@ console.log('ss', selectedItem);
   const slice = itemData.slice(0, limit);
   const baseURL = "https://cakeaway.polarispos.com/";
 
-
   return (
     <>
       <Navbar />
       <Categories onCategoryClick={handleCategoryClick} />
       <div className="container">
         <hr className="divider" />
-        <h2> {selectedCategoryName ? selectedCategoryName : 'All Category Items'}</h2>
+        <h2>
+          {" "}
+          {selectedCategoryName ? selectedCategoryName : "All Category Items"}
+        </h2>
         <div className="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4 mt-2">
           {slice
             .filter(
@@ -146,10 +142,7 @@ console.log('ss', selectedItem);
                     <div className="d-flex justify-content-between rs-btn-container">
                       <p className="card-text">AED {item.item_sales_price}</p>
                       <div>
-                        <button
-                          className="ms-3"
-                          onClick={()=> send(item)}
-                        >
+                        <button className="ms-3" onClick={() => send(item)}>
                           ADD
                         </button>
                         {item.customize && item.customize > 0 && (
@@ -163,12 +156,14 @@ console.log('ss', selectedItem);
                 </div>
               </div>
             ))}
-          <button 
-          className={`checkout-btn w-25 ${limit >= itemData.length ? 'd-none' : ''}`}
-          onClick={() => loadMore()}
-        >
-          Load More
-        </button>
+          <button
+            className={`checkout-btn w-25 ${
+              limit >= itemData.length ? "d-none" : ""
+            }`}
+            onClick={() => loadMore()}
+          >
+            Load More
+          </button>
         </div>
 
         {/* Modifiers  */}
@@ -193,36 +188,39 @@ console.log('ss', selectedItem);
                     aria-label="Close"
                   ></button>
                 </div>
-              
-                                <div className="modal-body">
-                                <img src={baseURL + modifierImage} className="option-header-img" alt={modifierImage} />
-                                <table class="table mt-2">
-                                  <thead className="table-light">
-                                    <tr>
-                                      <th colspan="3">Select your choice</th>
-                                      <th scope="col">required</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                  {selectedItem.map((item,index) => 
-                                    <tr>
-                                      <th scope="row">
-                                        <input
-                                          className="form-check-input"
-                                          type="radio"
-                                          name="option1"
-                                          id="flexRadioDefault1"
-                                        />
-                                      </th>
-                                      <td></td>
-                                      <td>{item.modifier_name}</td>
-                                      <td>{item.modifier_id}</td>
-                                    </tr>
-                                        )}
-                                  </tbody>
-                                </table>
-                              </div>
-            
+
+                <div className="modal-body">
+                  <img
+                    src={baseURL + modifierImage}
+                    className="option-header-img"
+                    alt={modifierImage}
+                  />
+                  <table class="table mt-2">
+                    <thead className="table-light">
+                      <tr>
+                        <th colspan="3">Select your choice</th>
+                        <th scope="col">required</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {selectedItem.map((item, index) => (
+                        <tr>
+                          <th scope="row">
+                            <input
+                              className="form-check-input"
+                              type="radio"
+                              name="option1"
+                              id="flexRadioDefault1"
+                            />
+                          </th>
+                          <td></td>
+                          <td>{item.modifier_name}</td>
+                          <td>{item.modifier_id}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
 
                 <div className="modal-footer">
                   <button

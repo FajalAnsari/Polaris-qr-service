@@ -14,8 +14,8 @@ const Home = () => {
             </div>
 
             <div className="btn-box-home">
-                <button className="half-btn m-2 w-75"><Link to="/menu">Pay Now</Link></button>
-                <button className="half-btn m-2 w-75"><Link to="/menu">View Menu</Link></button>
+            <Link to="/menu"> <button className="half-btn m-2 w-75 text-white">Pay Now</button></Link>
+            <Link to="/menu">   <button className="half-btn m-2 w-75 text-white">View Menu</button></Link>
             </div>
         </div>
     </div>
