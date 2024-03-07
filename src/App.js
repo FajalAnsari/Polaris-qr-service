@@ -8,6 +8,7 @@ import Waiting from './components/waiting';
 import Confirmed from './components/confirmed';
 import TestuseParam from './components/TestuseParam';
 import Default from './pages/default';
+import Stripe from './components/Stripe';
 
 const App = () => {
 
@@ -24,6 +25,8 @@ const App = () => {
         <Route path="/waiting" element={<Waiting />} />
         <Route path="/confirmed" element={<Confirmed />} />
         <Route path="/testuseparam" element={<TestuseParam />} />
+        <Route path="/stripe" element={<Stripe />} />
+
         <Route path="*" element={<Default/>} />
       </Routes>
     </Router>

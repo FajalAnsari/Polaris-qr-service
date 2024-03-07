@@ -4,6 +4,7 @@ import Categories from "../components/categoris";
 import optionImg from "../images/cat (2).png";
 import { ADD } from "../redux/action/action";
 import { useDispatch } from "react-redux";
+import { addParamsToUrl } from "../helper/addParamsToUrl";
 
 const MenuPage = () => {
   const [showModal, setShowModal] = useState(false);
@@ -68,8 +69,10 @@ const MenuPage = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
+        const url= addParamsToUrl(`${import.meta.env.API_URL}/menu`);
+        
         const response = await fetch(
-          "https://apidev.polarispos.com/table_menu/",
+          url,
           {
             method: "GET",
             headers: {
