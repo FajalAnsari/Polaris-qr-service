@@ -12,7 +12,6 @@ import Stripe from './components/Stripe';
 
 const App = () => {
 
-  
   const directory_name = '/build';
 
   return (
@@ -26,7 +25,6 @@ const App = () => {
         <Route path="/confirmed" element={<Confirmed />} />
         <Route path="/testuseparam" element={<TestuseParam />} />
         <Route path="/stripe" element={<Stripe />} />
-
         <Route path="*" element={<Default/>} />
       </Routes>
     </Router>

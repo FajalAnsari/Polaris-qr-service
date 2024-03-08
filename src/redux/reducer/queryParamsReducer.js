@@ -9,7 +9,8 @@ const INIT_STATE = {
     switch(action.type){
         case STORE_Q_PARAMS:
             //store in local storage
-            localStorage.setItem('query_params',action.payload);
+            console.log(action.payload)
+            localStorage.setItem('query_params',JSON.stringify(action.payload));
             return {
                 ...state,
                 location: action.payload.location,

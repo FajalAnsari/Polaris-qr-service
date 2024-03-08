@@ -6,8 +6,6 @@ import { useDispatch, useSelector, useStore } from 'react-redux';
 import { STORE_Q_PARAMS } from '../redux/action/action';
 
 
-
-
 const Home = () => {
     const dispatch = useDispatch();
     const location = useLocation();

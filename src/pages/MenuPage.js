@@ -66,39 +66,38 @@ const MenuPage = () => {
     }
   };
 
+
+  // try {
+  //   const apiUrl = `${process.env.REACT_APP_API_URL}menu?location=LLRWA&table_id=1`;
+  //   const response = await fetch(apiUrl, {
+  //     method: "GET",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   });
+  // const apiUrl = `${process.env.REACT_APP_API_URL}menu?location=LLRWA&table_id=1`;
+
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const url= addParamsToUrl(`${import.meta.env.API_URL}/menu`);
+        const url= addParamsToUrl(`${process.env.REACT_APP_API_URL}/menu`);
+       console.log(url)
         
-        const response = await fetch(
-          url,
-          {
-            method: "GET",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          }
-        );
+     
+        const response = await fetch(url, {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+    
         const data = await response.json();
         console.log(data);
 
         // test
         const itemData = data.items;
         setmodifierData(data.modifier_category);
-        // if (relevantModifier) {
-        //   const relevantModifierCategory = data.modifiers.find(category => category.modifier_category_id === relevantModifier.modifier_id);
 
-        //   if (relevantModifierCategory) {
-        //     console.log("Relevant Modifier Data:", relevantModifier);
-        //     console.log("Relevant Modifier Category Data:", relevantModifierCategory);
-        //   } else {
-        //     console.log("Modifier category not found for modifier_id:", relevantModifier.modifier_id);
-        //   }
-        // } else {
-        //   console.log("Modifier not found for item_sku:", itemData.item_sku);
-        // }
-        //test
         setItemData(data.items);
       } catch (error) {
         console.log("Error fetching items:", error);
