@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Categories from "../components/categoris";
-import optionImg from "../images/cat (2).png";
+import imageNotFound from "../images/not-image.jpg";
 import { ADD } from "../redux/action/action";
 import { useDispatch } from "react-redux";
 import { addParamsToUrl } from "../helper/addParamsToUrl";
@@ -15,7 +15,6 @@ const MenuPage = () => {
   const [modifierImage, setmodifierImage] = useState("");
   const [limit, setLimit] = useState(12);
   const [itemData, setItemData] = useState([]);
-  console.log("ss", selectedItem);
 
   const dispatch = useDispatch();
 
@@ -80,7 +79,7 @@ const MenuPage = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const url= addParamsToUrl(`${process.env.REACT_APP_API_URL}/menu`);
+        const url= addParamsToUrl(`${process.env.REACT_APP_API_URL}menu`);
        console.log(url)
         
      
@@ -107,7 +106,7 @@ const MenuPage = () => {
   }, []);
 
   const slice = itemData.slice(0, limit);
-  const baseURL = "https://cakeaway.polarispos.com/";
+  const baseURL = process.env.REACT_APP_BASE_IMAGE;
 
   return (
     <>
@@ -128,10 +127,17 @@ const MenuPage = () => {
             .map((item, index) => (
               <div key={index} className="col">
                 <div className="card">
-                  <img
-                    src={baseURL + item.item_image_address}
+                <img
+                    src={
+                      item.item_has_picture
+                        ? baseURL + item.item_image_address
+                        : imageNotFound
+                    }
                     className="card-img-top"
-                    alt={item.name}
+                    alt={item.name || "Image not available"}
+                    onError={(event) => {
+                      event.target.src = imageNotFound; 
+                    }}
                   />
                   <div className="card-body">
                     <h5 className="card-title">
