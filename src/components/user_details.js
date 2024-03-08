@@ -3,6 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import back_icon from "../images/back-arrow.svg";
 import Navbar from "./Navbar";
 import { useSelector } from "react-redux";
+import { addParamsToUrl } from "../helper/addParamsToUrl";
 
 
 const UserDetails = () => {
@@ -52,43 +53,22 @@ const UserDetails = () => {
         return;
       }
 
-    const OrderDetails = [
+    const OrderDetails = 
     {
-      table_id: "1",
-      loc_code: "GRLBA",
-      discount_code: null,
-      discount_amount: 10.0,
-      delivery_amount: 200.0,
-      items:
-       [
-        getdata.map((item) => ({
-          product: item.item_barcode,
-          product_name: item.item_name,
-          price:item.item_sales_price,
-          quantity: item.item_qoh,
-              special_request: "",
-              modifieritems: [
-                
-              ]
-        }))
-      ],
-      orderInfo: {
-        dining_option: 1,
-        payment_type: "",
-        notes: "//// Cash On Delivery //// Test from polaris /////Mobile app order id: 73566////",
-        source: "mobileapplication",
-        customer: {
-          full_name: name,
-          phone: mobileNumber,
-          email: `${name.replace(/\s/g, '').toLowerCase()}${mobileNumber.substring(0, 4)}@gmail.com`,
-        },
-    totalAmount : prise,
-  }
-}
-  ]
+      customer_phone:mobileNumber,
+      customer_name:name,
+      delivery_amount:200,
+      items: getdata.map((item) => ({
+            product: item.item_sku,
+            product_name: item.item_name,
+            price:item.item_sales_price,
+            quantity: item.item_qoh,
+                special_request: "nothing",
+          }))
+    };
     
-
-    fetch("http://localhost:3031/users", {
+    const url = addParamsToUrl(`${process.env.REACT_APP_API_URL}order`);
+    fetch(url, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -100,6 +80,9 @@ const UserDetails = () => {
         console.log("Data sent successfully:", data);
         navigate('/waiting');
         localStorage.removeItem("cart");
+        //509
+        //todo add store in store the order id returned
+        
       })
       .catch((error) => {
         console.error("Error sending data:", error);

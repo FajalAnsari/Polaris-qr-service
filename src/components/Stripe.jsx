@@ -15,9 +15,13 @@ export default function Stripe() {
 
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
+    //todo: change url
     fetch("http://192.168.0.12/liblib/branch_setup/api/checkout", {
         method: "POST",
-        headers: { "Content-Type": "application/json" } 
+        headers: { "Content-Type": "application/json" } ,
+        body: {
+          order_no: 509
+        }
       })
       .then((res) => res.json())
       .then((data) => setClientSecret(data.clientSecret));

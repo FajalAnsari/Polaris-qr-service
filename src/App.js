@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useParams } from 'react-router-
 import Home from './pages/Home';
 import MenuPage from './pages/MenuPage';
 import CheckOut from './components/AddCheckout';
-import User_details from './components/user_details';
+import UserDetails from './components/user_details';
 import Waiting from './components/waiting';
 import Confirmed from './components/confirmed';
 import TestuseParam from './components/TestuseParam';
@@ -20,7 +20,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/checkout" element={<CheckOut />} />
-        <Route path="/details" element={<User_details />} />
+        <Route path="/details" element={<UserDetails />} />
         <Route path="/waiting" element={<Waiting />} />
         <Route path="/confirmed" element={<Confirmed />} />
         <Route path="/testuseparam" element={<TestuseParam />} />
