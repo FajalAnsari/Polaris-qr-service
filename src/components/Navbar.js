@@ -42,25 +42,25 @@ function Navbar() {
                 className="py-2 text-white"
                 onClick={() => setMenuOpen(false)}
               >
-                Menu
+                Place the order
               </li>
               <li
                 className="py-2 text-white"
                 onClick={() => setMenuOpen(false)}
               >
-                Bills
+                View & Pay Bill
               </li>
               <li
                 className="py-2 text-white"
                 onClick={() => setMenuOpen(false)}
               >
-                Status
+                Offers
               </li>
               <li
                 className="py-2 text-white"
                 onClick={() => setMenuOpen(false)}
               >
-                Orders
+                Contact Now
               </li>
             </ul>
           </div>
