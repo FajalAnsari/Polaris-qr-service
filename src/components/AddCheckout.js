@@ -63,7 +63,7 @@ export default function AddCheckout() {
           <div className="col">
             <div className="checkout">
               {getdata.length == 0
-                ? "No data found"
+                ?  <p className="text-center">No item found in card, Add Now!</p>
                 : getdata.map((e) => {
                     return (
                       <>
@@ -113,18 +113,18 @@ export default function AddCheckout() {
               </div>
               <div className="row mx-auto">
                 <div className="col-9">
-                  <p>Vat 5%</p>
+                  <p>Vat 0%</p>
                 </div>
                 <div className="col-3 crt-price text-center">
-                  <p>8</p>
+                  <p>0</p>
                 </div>
               </div>
               <div className="row mx-auto">
                 <div className="col-9">
-                  <p>Disscount 10%</p>
+                  <p>Disscount 0%</p>
                 </div>
                 <div className="col-3 crt-price text-center">
-                  <p>5</p>
+                  <p>0</p>
                 </div>
               </div>
               <hr className="ms-3" />

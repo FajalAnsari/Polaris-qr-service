@@ -19,6 +19,7 @@ export default function Stripe() {
     "pk_test_51OmCPzHZa7lfCwll2jacxY11BJbe8codoygmK7TXXJeKHOmU50osVylEIh2sasdkSXdD349JjPxedEcARC7LhCFW00MfqEkBPG"
   );
 
+
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
     //todo: change url
