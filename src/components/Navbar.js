@@ -70,7 +70,7 @@ function Navbar() {
           </Link>
           <Link to={"/checkout"}>
             <button className="btn cart" type="submit">
-              <img src={cart} alt="cart"></img> <sapn>{getdata.length}</sapn>
+              <img src={cart} alt="cart"></img> <span>{getdata.length}</span>
             </button>
           </Link>
         </div>
