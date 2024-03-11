@@ -10,9 +10,9 @@ const Waiting = ()=>{
     const navigate = useNavigate();
     
     const showPayment = () =>{
+        console.log('clicked');
         navigate('/stripe')
-      }
-
+    }
   return (
     <>
     <Navbar/>
@@ -36,8 +36,8 @@ const Waiting = ()=>{
                         </div>
                     </div>
                     <div className="btn-box d-flex gx-2">
-                        <button className="half-btn m-2">View Bill</button>
-                        <button onClick={showPayment()} className="half-btn m-2">Explore More</button>
+                        <button onClick={showPayment()} className="half-btn m-2">View Bill</button>
+                        <button  className="half-btn m-2">Explore More</button>
                     </div>
                 </div>
             </div>

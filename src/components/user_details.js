@@ -78,11 +78,9 @@ const UserDetails = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log("Data sent successfully:", data);
-        navigate('/waiting');
         localStorage.removeItem("cart");
-        //509
-        //todo add store in store the order id returned
-        
+        localStorage.setItem('order_num',data);
+        navigate('/stripe');
       })
       .catch((error) => {
         console.error("Error sending data:", error);

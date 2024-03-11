@@ -19,11 +19,11 @@ export default function Stripe() {
     fetch("http://192.168.0.12/liblib/branch_setup/api/checkout", {
         method: "POST",
         headers: { "Content-Type": "application/json" } ,
-        body: {
-          order_no: 509
-        }
+        body: JSON.stringify({
+          order_no: localStorage.getItem('order_num')
+        })
       })
-      .then((res) => res.json())
+      .then((res) => res.json())  
       .then((data) => setClientSecret(data.clientSecret));
   }, []);
 
