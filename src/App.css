@@ -101,6 +101,11 @@
 .cat-box img {
   width: 80px;
   border-radius: var(--cat-box-border-radius);
+  height: 74%;
+  object-fit: cover;
+  width: 81%;
+  border: 2px solid rgb(240, 240, 245);
+  border-radius: 10px;
 }
 
 .cat-box p {

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import subcate from "../images/cat-default-image.jpg";
 import imageNotFound from "../images/not-image.jpg";
 import { addParamsToUrl } from "../helper/addParamsToUrl";
 
@@ -21,7 +20,7 @@ export default function Categories({ onCategoryClick }) {
         //   "Fetched Categories:",
         //   data.categories.category_image_address
         // );
-     
+
         setCategories(data.categories);
         setImagesCat(data.items);
         if (data.categories.length > 0) {
@@ -104,24 +103,18 @@ export default function Categories({ onCategoryClick }) {
         <div className="d-flex flex-column align-items-center">
           <img
             src={
-              category.category_image_address != '#'
+              category.category_image_address !== "#"
                 ? baseImageURL + category.category_image_address
                 : imageNotFound
             }
             alt={category.name || "Image not available"}
             className="mb-2"
-            style={{
-              height: "100px",
-              objectFit: "cover",
-              width: "100px",
-              border: "2px solid #f0f0f5",
-            }}
             onError={(event) => {
               event.target.src = imageNotFound;
             }}
           />
 
-          {/* <img
+       {/* <img
                     src={
                       item.item_has_picture
                         ? baseURL + item.item_image_address
@@ -132,7 +125,7 @@ export default function Categories({ onCategoryClick }) {
                     onError={(event) => {
                       event.target.src = imageNotFound; 
                     }}
-                  /> */}
+                  />  */}
 
           {/* {Array.isArray(categoryImages) && categoryImages.length > 0 && (
           categoryImages.slice(0, 10).map((imageUrl, index) => (
@@ -159,17 +152,17 @@ export default function Categories({ onCategoryClick }) {
                   handleCatItems(item.category_id, item.category_name)
                 }
               >
-                <img src={
-                   item.item_has_picture
-                   ? baseImageURL + item.category_image_address
-                   : imageNotFound
-                } 
-                alt={item.name || "Image not available"}
-                
-                className="mb-2"  
-                onError={(event) => {
-                  event.target.src = imageNotFound;
-                }}
+                <img
+                  src={
+                    item.item_has_picture
+                      ? baseImageURL + item.category_image_address
+                      : imageNotFound
+                  }
+                  alt={item.name || "Image not available"}
+                  className="mb-2"
+                  onError={(event) => {
+                    event.target.src = imageNotFound;
+                  }}
                 />
                 <p>{item.category_name}</p>
               </div>
