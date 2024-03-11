@@ -5,6 +5,7 @@ import CheckoutForm from "./CheckoutForm";
 import Navbar from "./Navbar";
 import back_icon from "../images/back-arrow.svg";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 import '../App.css';
 
 // Make sure to call loadStripe outside of a component’s render to avoid
@@ -12,6 +13,7 @@ import '../App.css';
 // This is your test publishable API key.
 
 export default function Stripe() {
+  const getdata = useSelector((state) => state.addcartReducer.carts);
   const [clientSecret, setClientSecret] = useState("");
   const stripePromise = loadStripe(
     "pk_test_51OmCPzHZa7lfCwll2jacxY11BJbe8codoygmK7TXXJeKHOmU50osVylEIh2sasdkSXdD349JjPxedEcARC7LhCFW00MfqEkBPG"
@@ -53,12 +55,13 @@ export default function Stripe() {
         </h5>
         <div className="row">
           <div className="col">
-            <div className="App">
+            <div className="App stripe-payment">
               {clientSecret && (
                 <Elements options={options} stripe={stripePromise}>
                   <CheckoutForm />
                 </Elements>
               )}
+             <p>Total ammout in AED : {getdata.length}</p>
             </div>
           </div>
         </div>
