@@ -331,4 +331,13 @@
   }
 }
 
-/* #nothing just test */
+/* strip  */
+#submit{
+  width: 100%;
+  margin-top: 20px;
+  
+  padding: 10px;
+  background-color: rgb(51 221 179);
+  border: none;
+  border-radius: 5px;
+}
