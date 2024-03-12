@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import Webcam from 'react-webcam'; // Import the Webcam component
 import '../pages/pages.css';
 import logo_home from "../images/logo.svg";
 import { useDispatch } from 'react-redux';
 import { STORE_Q_PARAMS } from '../redux/action/action';
+import AlertModal from '../components/AlertModal';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -11,6 +13,8 @@ const Home = () => {
     const searchParams = new URLSearchParams(location.search);
     const locationParam = searchParams.get('location');
     const tableIdParam = searchParams.get('table_id');
+    const [showAlert, setShowAlert] = useState(false);
+    const webcamRef = useRef(null);
 
     useEffect(() => {
         const storedLocation = localStorage.getItem('location');
@@ -18,7 +22,7 @@ const Home = () => {
 
         if (!storedLocation || !storedTableId) {
             if (!locationParam || !tableIdParam) {
-                alert('Please scan the QR code again.');
+                setShowAlert(true);
             } else {
                 dispatch({
                     type: STORE_Q_PARAMS,
@@ -41,6 +45,27 @@ const Home = () => {
         }
     }, [dispatch, locationParam, tableIdParam]);
 
+    const handleCancel = () => {
+        setShowAlert(false);
+    };
+
+    const handleScanNow = () => {
+        setShowAlert(false); // Close the alert modal
+        // Access the webcam and start streaming
+        const videoConstraints = {
+            width: 1280,
+            height: 720,
+            facingMode: 'user'
+        };
+        navigator.mediaDevices.getUserMedia({ video: videoConstraints })
+            .then((stream) => {
+                webcamRef.current.video.srcObject = stream;
+            })
+            .catch((error) => {
+                console.error('Error opening camera:', error);
+            });
+    };
+
     return (
         <>
             <div className="bg-img">
@@ -55,6 +80,17 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {showAlert && 
+                <AlertModal 
+                    message="Please scan the QR code again." 
+                    onCancel={handleCancel} 
+                    onScanNow={handleScanNow} 
+                />}
+            <Webcam
+                audio={false}
+                ref={webcamRef}
+                style={{ display: 'none' }} // Hide the webcam element initially
+            />
         </>
     );
 };

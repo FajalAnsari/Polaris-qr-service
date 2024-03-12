@@ -90,9 +90,9 @@ export default function Categories({ onCategoryClick }) {
   };
 
   const renderCategories = (category) => {
-    console.log(category.category_image_address);
-    const categoryIsActive = activeCategoryId === category.category_id;
-    const categoryImages = getCategoryImage(category.category_name);
+    // console.log(category.category_image_address);
+    // const categoryIsActive = activeCategoryId === category.category_id;
+    // const categoryImages = getCategoryImage(category.category_name);
 
     return (
       <div
@@ -113,25 +113,6 @@ export default function Categories({ onCategoryClick }) {
               event.target.src = imageNotFound;
             }}
           />
-
-       {/* <img
-                    src={
-                      item.item_has_picture
-                        ? baseURL + item.item_image_address
-                        : imageNotFound
-                    }
-                    className="card-img-top"
-                    alt={item.name || "Image not available"}
-                    onError={(event) => {
-                      event.target.src = imageNotFound; 
-                    }}
-                  />  */}
-
-          {/* {Array.isArray(categoryImages) && categoryImages.length > 0 && (
-          categoryImages.slice(0, 10).map((imageUrl, index) => (
-            <img key={index} src={imageUrl} alt="" className="mb-2" style={{ height: "100px", objectFit: "cover", width: "100px" }} />
-          ))
-        )} */}
           <p className={`mb-0 ${isActive ? "active-text" : ""}`}>
             {category.category_name}
           </p>
@@ -141,6 +122,7 @@ export default function Categories({ onCategoryClick }) {
   };
 
   const renderSelectedCategoryItems = () => {
+    console.log('selected categor',selectedCategoryItems);
     return (
       <div className="subcategory-container d-flex">
         {selectedCategoryItems.length > 0
@@ -154,7 +136,7 @@ export default function Categories({ onCategoryClick }) {
               >
                 <img
                   src={
-                    item.item_has_picture
+                    item.category_has_picture
                       ? baseImageURL + item.category_image_address
                       : imageNotFound
                   }
@@ -163,7 +145,9 @@ export default function Categories({ onCategoryClick }) {
                   onError={(event) => {
                     event.target.src = imageNotFound;
                   }}
+                
                 />
+                
                 <p>{item.category_name}</p>
               </div>
             ))
