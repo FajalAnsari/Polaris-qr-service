@@ -17,32 +17,22 @@ const Home = () => {
     const webcamRef = useRef(null);
 
     useEffect(() => {
-        const storedLocation = localStorage.getItem('location');
-        const storedTableId = localStorage.getItem('table_id');
 
-        if (!storedLocation || !storedTableId) {
-            if (!locationParam || !tableIdParam) {
-                setShowAlert(true);
-            } else {
-                dispatch({
-                    type: STORE_Q_PARAMS,
-                    payload: {
-                        location: locationParam,
-                        table_id: tableIdParam
-                    }
-                });
-                localStorage.setItem('location', locationParam);
-                localStorage.setItem('table_id', tableIdParam);
-            }
+        if(locationParam && tableIdParam){
+            localStorage.setItem('location', locationParam);
+            localStorage.setItem('table_id', tableIdParam);
         } else {
-            dispatch({
+            locationParam = localStorage.getItem('location');
+            tableIdParam = localStorage.getItem('table_id');
+        }
+
+        dispatch({
                 type: STORE_Q_PARAMS,
                 payload: {
-                    location: storedLocation,
-                    table_id: storedTableId
+                    location: locationParam,
+                    table_id: tableIdParam
                 }
             });
-        }
     }, [dispatch, locationParam, tableIdParam]);
 
     const handleCancel = () => {
