@@ -96,7 +96,7 @@ const MenuPage = () => {
         console.log(data);
 
         // test
-        setmodifierData(data.modifier_category);
+        setmodifierData(data.modifiers);
 
         setItemData(data.items);
       } catch (error) {
