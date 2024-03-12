@@ -13,11 +13,21 @@ import '../App.css';
 // This is your test publishable API key.
 
 export default function Stripe() {
+  const [totalAmount, setTotalAmount] = useState(0);
+
   const getdata = useSelector((state) => state.addcartReducer.carts);
   const [clientSecret, setClientSecret] = useState("");
   const stripePromise = loadStripe(
     "pk_test_51OmCPzHZa7lfCwll2jacxY11BJbe8codoygmK7TXXJeKHOmU50osVylEIh2sasdkSXdD349JjPxedEcARC7LhCFW00MfqEkBPG"
   );
+
+  useEffect(() => {
+    let total = 0;
+    getdata.forEach((item) => {
+      total += item.item_sales_price * item.item_qoh;
+    });
+    setTotalAmount(total);
+  }, [getdata]);
 
 
   useEffect(() => {
@@ -62,7 +72,8 @@ export default function Stripe() {
                   <CheckoutForm />
                 </Elements>
               )}
-             <p>Total ammout in AED : {getdata.length}</p>
+             <p>Total ammout in AED: {totalAmount}</p>
+
             </div>
           </div>
         </div>

@@ -66,6 +66,10 @@ const MenuPage = () => {
   };
 
 
+  
+
+
+
   // try {
   //   const apiUrl = `${process.env.REACT_APP_API_URL}menu?location=LLRWA&table_id=1`;
   //   const response = await fetch(apiUrl, {
@@ -80,8 +84,6 @@ const MenuPage = () => {
     const fetchItems = async () => {
       try {
         const url= addParamsToUrl(`${process.env.REACT_APP_API_URL}menu`);
-       console.log(url)
-        
      
         const response = await fetch(url, {
           method: "GET",
@@ -94,7 +96,6 @@ const MenuPage = () => {
         console.log(data);
 
         // test
-        const itemData = data.items;
         setmodifierData(data.modifier_category);
 
         setItemData(data.items);
@@ -124,10 +125,16 @@ const MenuPage = () => {
               (item) =>
                 !selectedCategory || selectedCategory === item.item_category_id
             )
-            .map((item, index) => (
-              <div key={index} className="col">
-                <div className="card">
-                <img
+            .map((item, index) => {
+              const hasCustomization = modifierData.some(
+                (modifier) => modifier.modifier_sku === item.item_sku
+              );
+              console.log(hasCustomization);
+
+              return (
+                <div key={index} className="col">
+                  <div className="card">
+                  <img
                     src={
                       item.item_has_picture
                         ? baseURL + item.item_image_address
@@ -139,31 +146,32 @@ const MenuPage = () => {
                       event.target.src = imageNotFound; 
                     }}
                   />
-                  <div className="card-body">
-                    <h5 className="card-title">
-                      {getShortenedText(item.item_name, 35)}
-                      {item.item_category_id}
-                    </h5>
-                    <p className="card-text descri">
-                      {getShortenedText(item.item_description, 35)}
-                    </p>
-                    <div className="d-flex justify-content-between rs-btn-container">
-                      <p className="card-text">AED {item.item_sales_price}</p>
-                      <div>
-                        <button className="ms-3" onClick={() => send(item)}>
-                          ADD
-                        </button>
-                        {item.customize && item.customize > 0 && (
-                          <p id="customization" className="mt-6">
-                            Customization
-                          </p>
-                        )}
+                    <div className="card-body">
+                      <h5 className="card-title">
+                        {getShortenedText(item.item_name, 35)}
+                        {item.item_category_id}
+                      </h5>
+                      <p className="card-text descri">
+                        {getShortenedText(item.item_description, 35)}
+                      </p>
+                      <div className="d-flex justify-content-between rs-btn-container">
+                        <p className="card-text">AED {item.item_sales_price}</p>
+                        <div>
+                          <button className="ms-3" onClick={() => send(item)}>
+                            ADD
+                          </button>
+                          {hasCustomization && (
+                            <p id="customization" className="mt-6">
+                              Customization
+                            </p>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           <button
             className={`checkout-btn w-25 ${
               limit >= itemData.length ? "d-none" : ""

@@ -1,72 +1,69 @@
 import React, { useState } from "react";
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import back_icon from "../images/back-arrow.svg";
 import Navbar from "./Navbar";
 import { useSelector } from "react-redux";
 import { addParamsToUrl } from "../helper/addParamsToUrl";
 
-
 const UserDetails = () => {
-
-
-  // to get url values
-  const params = useParams();
-  console.log(params);
-  const { location, table_id } = params;
-  console.log("Location : ", location);
-  console.log("Table : ", location);
-    // to get url values end
-
-  
-
-  console.log("Location : ", location);
-  console.log("Table : ", table_id);
-
   const navigate = useNavigate();
   const getdata = useSelector((state) => state.addcartReducer.carts);
-  console.log(getdata);
   let prise = 0;
   getdata.map((ele, k) => {
     prise = ele.item_sales_price * ele.item_qoh + prise;
   });
 
-  // setTotalPrice(prise);
-
   const [name, setName] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
-  const [error, setError] = useState("");
+  const [nameError, setNameError] = useState("");
+  const [mobileNumberError, setMobileNumberError] = useState("");
 
   const handleNameChange = (event) => {
-    setName(event.target.value);
+    const value = event.target.value;
+    setName(value);
+    if (value.trim() === "" || /\d/.test(value)) {
+      setNameError("Please enter a valid name");
+    } else {
+      setNameError("");
+    }
   };
 
   const handleMobileNumberChange = (event) => {
-    setMobileNumber(event.target.value);
+    const value = event.target.value;
+    setMobileNumber(value);
+    if (!/^\d{10}$/.test(value)) {
+      setMobileNumberError("Please enter a 10-digit mobile number");
+    } else {
+      setMobileNumberError("");
+    }
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-       // Checking number is filed or not
-       if (!name.trim() || !mobileNumber.trim()) {
-        setError("Please fill in all the details.");
-        return;
-      }
+    if (name.trim() === "" || /\d/.test(name)) {
+      setNameError("Please enter a valid name");
+      return;
+    }
 
-    const OrderDetails = 
-    {
-      customer_phone:mobileNumber,
-      customer_name:name,
-      delivery_amount:200,
+    if (!/^\d{10}$/.test(mobileNumber)) {
+      setMobileNumberError("Please enter a 10-digit mobile number");
+      return;
+    }
+
+    const OrderDetails = {
+      customer_phone: mobileNumber,
+      customer_name: name,
+      delivery_amount: 200,
       items: getdata.map((item) => ({
-            product: item.item_sku,
-            product_name: item.item_name,
-            price:item.item_sales_price,
-            quantity: item.item_qoh,
-                special_request: "nothing",
-          }))
+        product: item.item_sku,
+        product_name: item.item_name,
+        price: item.item_sales_price,
+        quantity: item.item_qoh,
+        special_request: "nothing",
+      })),
     };
-    
+
     const url = addParamsToUrl(`${process.env.REACT_APP_API_URL}order`);
     fetch(url, {
       method: "POST",
@@ -79,8 +76,8 @@ const UserDetails = () => {
       .then((data) => {
         console.log("Data sent successfully:", data);
         localStorage.removeItem("cart");
-        localStorage.setItem('order_num',data);
-        navigate('/stripe');
+        localStorage.setItem("order_num", data);
+        navigate("/stripe");
       })
       .catch((error) => {
         console.error("Error sending data:", error);
@@ -104,7 +101,7 @@ const UserDetails = () => {
             <div className="checkout">
               <div className="row">
                 <form onSubmit={handleSubmit}>
-                  <h6>Please enter your details</h6>
+                  <h6>Please enter your name and mobile number</h6>
                   <div className="form-group">
                     <input
                       type="text"
@@ -115,6 +112,7 @@ const UserDetails = () => {
                       value={name}
                       onChange={handleNameChange}
                     />
+                    {nameError && <div className="text-danger">{nameError}</div>}
                   </div>
                   <div className="form-group">
                     <input
@@ -125,10 +123,10 @@ const UserDetails = () => {
                       value={mobileNumber}
                       onChange={handleMobileNumberChange}
                     />
+                    {mobileNumberError && <div className="text-danger">{mobileNumberError}</div>}
                   </div>
-                  {error && <div className="text-danger">{error}</div>}
                   <div className="text-center mt-4">
-                    <button type="submit" className="checkout-btn">
+                    <button type="submit" className="checkout-btn" disabled={nameError || mobileNumberError}>
                       Place Order
                     </button>
                   </div>

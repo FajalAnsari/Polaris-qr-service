@@ -17,7 +17,7 @@ const Waiting = ()=>{
     <>
     <Navbar/>
     <div className="container p-4 pb-2 mt-5">
-    <h5 className="mb-3 mt-3 back-arrow"><Link to={"/waiting"}><span> <img src={back_icon} alt="" /> Back</span></Link></h5>
+    <h5 className="mb-3 mt-3 back-arrow"><Link to={"/menu"}><span> <img src={back_icon} alt="" /> Back</span></Link></h5>
         <div className="row">
             <div className="col">
                 <div className="checkout text-center">
@@ -32,7 +32,7 @@ const Waiting = ()=>{
                             <div className="col">
                                 Order code : 5042
                             </div>
-                            <p>Total Amount : 51.00 AED</p>
+                            <p>Total Paid Amount : 51.00 AED</p>
                         </div>
                     </div>
                     <div className="btn-box d-flex gx-2">

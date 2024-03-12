@@ -54,7 +54,7 @@ function Navbar() {
                 className="py-2 text-white"
                 onClick={() => setMenuOpen(false)}
               >
-                Offers
+                Offers of the day
               </li>
               <li
                 className="py-2 text-white"

@@ -63,7 +63,7 @@ export default function AddCheckout() {
           <div className="col">
             <div className="checkout">
               {getdata.length == 0
-                ?  <p className="text-center">No item found in card, Add Now!</p>
+                ?  <p className="text-center">No item found in cart, Add Now!</p>
                 : getdata.map((e) => {
                     return (
                       <>
