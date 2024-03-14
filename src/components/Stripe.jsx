@@ -8,9 +8,6 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import '../App.css';
 
-// Make sure to call loadStripe outside of a component’s render to avoid
-// recreating the Stripe object on every render.
-// This is your test publishable API key.
 
 export default function Stripe() {
   const [totalAmount, setTotalAmount] = useState(0);
