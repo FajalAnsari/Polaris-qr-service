@@ -7,6 +7,10 @@ import success_img from "../images/success.svg";
 //add fetch on order id
 
 const Confirmed = ()=>{
+
+    const orderNumber = localStorage.getItem("order_num"); // Assuming order_num stores the order number
+    const tableNumber = localStorage.getItem("table_id");
+    const locationCode = localStorage.getItem("location");
     const navigate = useNavigate();
     
     const gotoMenu = () =>{
@@ -34,10 +38,10 @@ const Confirmed = ()=>{
                         <img src={success_img} alt="" className="mt-2 waiting-img" />
                         <div className="row mt-4">
                             <div className="col">
-                                <p>Table No. 2</p>
+                                <p>Table No. {tableNumber}</p>
                             </div>
                             <div className="col">
-                                Order code : 5042
+                                Order code : {orderNumber}
                             </div>
                             <p>Total Paid Amount : 51.00 AED</p>
                         </div>

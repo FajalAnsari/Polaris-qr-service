@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function ViewBill() {
-  const orderNumber = localStorage.getItem("order_num");
+  const orderNumber = localStorage.getItem("order_num"); // Assuming order_num stores the order number
   const tableNumber = localStorage.getItem("table_id");
   const locationCode = localStorage.getItem("location");
   const [orderDetails, setOrderDetails] = useState(null);
@@ -22,14 +22,13 @@ function ViewBill() {
     <>
       {orderDetails ? (
         <div>
-          <h3>Order Number: {orderDetails.order_no}</h3>
+          <h3>Order Number: {orderNumber}</h3> {/* Access orderNumber directly */}
           <h4>Table Number: {orderDetails.table_id}</h4>
           <h4>Location: {orderDetails.loc_code}</h4>
           <ul>
             {orderDetails.items.map((item) => (
               <li key={item.id}>
-                {item.description} - Qty: {item.quantity} - Price:{" "}
-                {item.unit_price}
+                {item.description} - Qty: {item.quantity} - Price: {item.unit_price}
               </li>
             ))}
           </ul>
