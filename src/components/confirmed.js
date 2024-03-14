@@ -6,13 +6,20 @@ import success_img from "../images/success.svg";
 //TODO
 //add fetch on order id
 
-const Waiting = ()=>{
+const Confirmed = ()=>{
     const navigate = useNavigate();
     
-    const showPayment = () =>{
-        console.log('clicked');
-        navigate('/stripe')
+    const gotoMenu = () =>{
+        navigate('/menu')
     }
+
+    const gotoStripe = () => {
+        navigate("/stripe");
+    }; 
+    const gotoViewbill = () => {
+        navigate("/menu");
+    };
+    
   return (
     <>
     <Navbar/>
@@ -36,8 +43,12 @@ const Waiting = ()=>{
                         </div>
                     </div>
                     <div className="btn-box d-flex gx-2">
-                        <button onClick={showPayment()} className="half-btn m-2">View Bill</button>
-                        <button  className="half-btn m-2">Explore More</button>
+                        <button onClick={gotoMenu} className="half-btn m-2">Explore More</button>
+
+                        <button onClick={gotoViewbill} className="half-btn m-2">View Bill</button>
+
+                        <button className="half-btn m-2 pay-now" onClick={gotoStripe}>Pay Now</button>
+
                     </div>
                 </div>
             </div>
@@ -47,4 +58,4 @@ const Waiting = ()=>{
   )
 }
 
-export default Waiting;
+export default Confirmed;

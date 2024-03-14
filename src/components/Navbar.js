@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link,  useNavigate } from "react-router-dom";
 import logo from "../images/logo.svg";
 import cart from "../images/cart.svg";
 import hamburger_icon from "../images/hamburger.svg";
@@ -8,11 +8,17 @@ import "../../src/App.css";
 import { useState } from "react";
 
 function Navbar() {
+  const navigate = useNavigate();
   const getdata = useSelector((state) => state.addcartReducer.carts);
   const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
+
+  const payNow = () => {
+    setMenuOpen(false)
+    navigate("/stripe");
+  }
   return (
     <>
       <nav className="navbar fixed-top ">
@@ -40,7 +46,7 @@ function Navbar() {
             <ul className="list-unstyled text-center">
               <li
                 className="py-2 text-white"
-                onClick={() => setMenuOpen(false)}
+                onClick={payNow}
               >
                 Place the order
               </li>
@@ -64,7 +70,7 @@ function Navbar() {
               </li>
             </ul>
           </div>
-          <Link to={"/"} className="navbar-brand">
+          <Link to={"/menu"} className="navbar-brand">
             {" "}
             <img src={logo} alt="logo"></img>
           </Link>

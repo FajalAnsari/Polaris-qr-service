@@ -24,6 +24,8 @@ const MenuPage = () => {
   // };
 
   const send = (e) => {
+    console.log("something:", e);
+    
     //testing modifier
     const modifiersForItem = modifierData.filter(
       (modifier) => modifier.modifier_sku === e.item_sku
@@ -65,11 +67,6 @@ const MenuPage = () => {
     }
   };
 
-
-  
-
-
-
   // try {
   //   const apiUrl = `${process.env.REACT_APP_API_URL}menu?location=LLRWA&table_id=1`;
   //   const response = await fetch(apiUrl, {
@@ -83,24 +80,28 @@ const MenuPage = () => {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const url= addParamsToUrl(`${process.env.REACT_APP_API_URL}menu`);
-     
+        const url = addParamsToUrl(`${process.env.REACT_APP_API_URL}menu`);
+
         const response = await fetch(url, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
           },
         });
-    
+
         const data = await response.json();
-        console.log(data);
+        console.log(data.modifier_category[0].modifier_category_name
+          );
+          console.log(data);
 
         // test
         setmodifierData(data.modifiers);
 
+
         setItemData(data.items);
       } catch (error) {
         console.log("Error fetching items:", error);
+        
       }
     };
     fetchItems();
@@ -134,18 +135,18 @@ const MenuPage = () => {
               return (
                 <div key={index} className="col">
                   <div className="card">
-                  <img
-                    src={
-                      item.item_has_picture
-                        ? baseURL + item.item_image_address
-                        : imageNotFound
-                    }
-                    className="card-img-top"
-                    alt={item.name || "Image not available"}
-                    onError={(event) => {
-                      event.target.src = imageNotFound; 
-                    }}
-                  />
+                    <img
+                      src={
+                        item.item_has_picture
+                          ? baseURL + item.item_image_address
+                          : imageNotFound
+                      }
+                      className="card-img-top"
+                      alt={item.name || "Image not available"}
+                      onError={(event) => {
+                        event.target.src = imageNotFound;
+                      }}
+                    />
                     <div className="card-body">
                       <h5 className="card-title">
                         {getShortenedText(item.item_name, 35)}
@@ -210,7 +211,11 @@ const MenuPage = () => {
                     src={baseURL + modifierImage}
                     className="option-header-img"
                     alt={modifierImage}
+                    onError={(event) => {
+                      event.target.src = imageNotFound;
+                    }}
                   />
+
                   <table class="table mt-2">
                     <thead className="table-light">
                       <tr>
@@ -220,21 +225,22 @@ const MenuPage = () => {
                     </thead>
                     <tbody>
                       {selectedItem.map((item, index) => (
-                        <tr>
+                        <tr key={index}>
                           <th scope="row">
                             <input
                               className="form-check-input"
-                              type="radio"
-                              name="option1"
-                              id="flexRadioDefault1"
+                              type="checkbox"
+                              name={`option${index}`}
+                              id={`flexRadioDefault${index}`}
                             />
                           </th>
                           <td></td>
                           <td>{item.modifier_name}</td>
-                          <td>{item.modifier_id}</td>
+                          <td></td>
                         </tr>
                       ))}
                     </tbody>
+                    
                   </table>
                 </div>
 

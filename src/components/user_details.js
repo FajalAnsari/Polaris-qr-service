@@ -77,7 +77,7 @@ const UserDetails = () => {
         console.log("Data sent successfully:", data);
         localStorage.removeItem("cart");
         localStorage.setItem("order_num", data);
-        navigate("/stripe");
+        navigate("/confirmed");
       })
       .catch((error) => {
         console.error("Error sending data:", error);

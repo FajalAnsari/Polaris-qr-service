@@ -101,6 +101,7 @@ export default function Categories({ onCategoryClick }) {
         onClick={() => handleCategoryClick(category.category_id)}
       >
         <div className="d-flex flex-column align-items-center">
+          <div  className="category-item-container">
           <img
             src={
               category.category_image_address !== "#"
@@ -116,6 +117,8 @@ export default function Categories({ onCategoryClick }) {
           <p className={`mb-0 ${isActive ? "active-text" : ""}`}>
             {category.category_name}
           </p>
+          </div>
+          
         </div>
       </div>
     );

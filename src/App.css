@@ -123,7 +123,16 @@
   margin-top: 29px;
 }
 
+
+.category-item-container{
+  /* border: 1px solid red; */
+  min-height: 170px;
+}
+
 /* Sub categories  */
+.subcategory-container{
+  overflow-x: auto;
+}
 .subcategory-container  .cat-box img{
   height: 74%;
   object-fit: cover;
@@ -290,11 +299,22 @@
   box-shadow: 0px 15px 45px 0px rgba(0, 0, 0, 0.20);
 }
 
-
+.btn-box .pay-now{
+  background: #268a4f !important;
+}
 
 
 
 /* btns end  */
+
+
+/* modals  */
+.modal-content{
+  top: 10%;
+}
+
+/* End modals  */
+
 .waiting-img {
   filter: opacity(0.5);
   width: 28%;

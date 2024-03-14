@@ -6,9 +6,11 @@ import CheckOut from './components/AddCheckout';
 import UserDetails from './components/user_details';
 import Waiting from './components/waiting';
 import Confirmed from './components/confirmed';
+import PaymentSuccess from './components/PaymentSuccess';
 import TestuseParam from './components/TestuseParam';
 import Default from './pages/default';
 import Stripe from './components/Stripe';
+import ViewBill from './components/ViewBill';
 
 const App = () => {
 
@@ -23,8 +25,10 @@ const App = () => {
         <Route path="/details" element={<UserDetails />} />
         <Route path="/waiting" element={<Waiting />} />
         <Route path="/confirmed" element={<Confirmed />} />
+        <Route path="/success" element={<PaymentSuccess />} />
         <Route path="/testuseparam" element={<TestuseParam />} />
         <Route path="/stripe" element={<Stripe />} />
+        <Route path='/viewbill' element={<ViewBill />} />
         <Route path="*" element={<Default/>} />
       </Routes>
     </Router>
