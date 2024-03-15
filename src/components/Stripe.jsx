@@ -66,11 +66,9 @@ export default function Stripe() {
             <div className="App stripe-payment">
               {clientSecret && (
                 <Elements options={options} stripe={stripePromise}>
-                  <CheckoutForm />
+                  <CheckoutForm totalAmount={totalAmount}/>
                 </Elements>
               )}
-             <p>Total ammout in AED: {totalAmount}</p>
-
             </div>
           </div>
         </div>
