@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import { Link, useNavigate } from 'react-router-dom'
 import back_icon from "../images/back-arrow.svg";
 import success_img from "../images/success.svg";
+import ViewBill from './ViewBill';
 //TODO
 //add fetch on order id
 
@@ -15,6 +16,9 @@ const PaymentSuccess = ()=>{
 
     const gotoStripe = () => {
         navigate("/stripe");
+    };
+    const viewbill = () => {
+        navigate("/viewbill");
     };
     
   return (
@@ -30,9 +34,9 @@ const PaymentSuccess = ()=>{
                         <h4 className="mt-5">Payment Succeeded!</h4>
                         <p className="tagline">We are happy to serve you  </p>
                     </div>
-                    {/* <div className="btn-box d-flex gx-2">
-                        <button onClick={gotoMenu} className="half-btn m-2">Explore More</button>
-                    </div> */}
+                    <div className="btn-box d-flex gx-2">
+                        <button onClick={viewbill} className="half-btn m-2">View Bill</button>
+                    </div>
                 </div>
             </div>
         </div>

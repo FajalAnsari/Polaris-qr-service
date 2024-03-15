@@ -20,9 +20,9 @@ const Confirmed = ()=>{
     const gotoStripe = () => {
         navigate("/stripe");
     }; 
-    const gotoViewbill = () => {
-        navigate("/menu");
-    };
+    // const gotoViewbill = () => {
+    //     navigate("/viewbill");
+    // };
     
   return (
     <>
@@ -43,13 +43,13 @@ const Confirmed = ()=>{
                             <div className="col">
                                 Order code : {orderNumber}
                             </div>
-                            <p>Total Paid Amount : 51.00 AED</p>
+                          
                         </div>
                     </div>
                     <div className="btn-box d-flex gx-2">
                         <button onClick={gotoMenu} className="half-btn m-2">Explore More</button>
 
-                        <button onClick={gotoViewbill} className="half-btn m-2">View Bill</button>
+                        {/* <button onClick={gotoViewbill} className="half-btn m-2">View Bill</button> */}
 
                         <button className="half-btn m-2 pay-now" onClick={gotoStripe}>Pay Now</button>
 

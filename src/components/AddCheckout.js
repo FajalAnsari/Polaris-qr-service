@@ -62,12 +62,26 @@ export default function AddCheckout() {
         <div className="row">
           <div className="col">
             <div className="checkout">
+              <div className="row">
+              <div className="col-6">
+                Items
+              </div>
+              <div className="col-3 text-center">
+                Qty
+              </div>
+              <div className="col-3 text-center">
+                Price
+              </div>
+              </div>
+             
+            <hr className="ms-3" />
+            
               {getdata.length == 0
                 ?  <p className="text-center">No item found in cart, Add Now!</p>
                 : getdata.map((e) => {
                     return (
                       <>
-                        <div className="row mx-auto">
+                        <div className="row mx-auto"> 
                           <div className="col-6">
                             <p>{e.item_name}</p>
                           </div>
