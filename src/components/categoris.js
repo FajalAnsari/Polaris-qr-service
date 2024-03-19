@@ -16,11 +16,6 @@ export default function Categories({ onCategoryClick }) {
       try {
         const response = await fetch(url);
         const data = await response.json();
-        // console.log(
-        //   "Fetched Categories:",
-        //   data.categories.category_image_address
-        // );
-
         setCategories(data.categories);
         setImagesCat(data.items);
         if (data.categories.length > 0) {
@@ -125,7 +120,6 @@ export default function Categories({ onCategoryClick }) {
   };
 
   const renderSelectedCategoryItems = () => {
-    console.log('selected categor',selectedCategoryItems);
     return (
       <div className="subcategory-container d-flex">
         {selectedCategoryItems.length > 0
