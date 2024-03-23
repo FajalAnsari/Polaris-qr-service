@@ -153,6 +153,7 @@ const MenuPage = () => {
     };
     fetchItems();
   }, []);
+  
 
   const slice = itemData.slice(0, limit);
   const baseURL = process.env.REACT_APP_BASE_IMAGE;
@@ -204,7 +205,7 @@ const MenuPage = () => {
                     />
                     <div className="card-body">
                       <h5 className="card-title">
-                        {getShortenedText(item.item_name, 35)}
+                        {getShortenedText(item.item_name.replace(/&amp;/g, "&"), 35)}
                         {item.item_category_id}
                       </h5>
                       <p className="card-text descri">

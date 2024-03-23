@@ -1,11 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import Webcam from "react-webcam"; // Import the Webcam component
 import "../pages/pages.css";
 import logo_home from "../images/logo.svg";
 import { useDispatch } from "react-redux";
 import { STORE_Q_PARAMS } from "../redux/action/action";
-import AlertModal from "../components/AlertModal";
 
 const Home = () => {
   const dispatch = useDispatch();
@@ -46,10 +44,10 @@ const Home = () => {
           </div>
 
           <div className="btn-box-home">
-            <button onClick={payNow} to="/stripe">
+            <Link onClick={payNow} to="/stripe">
               {" "}
               <button className="half-btn m-2 w-75 text-white">Pay Now</button>
-            </button>
+            </Link>
             <Link to="/menu">
               {" "}
               <button className="half-btn m-2 w-75 text-white">

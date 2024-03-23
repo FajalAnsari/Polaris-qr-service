@@ -150,7 +150,6 @@ export default function Categories({ onCategoryClick }) {
                   }}
                 
                 />
-                
                 <p>{item.category_name}</p>
               </div>
             ))

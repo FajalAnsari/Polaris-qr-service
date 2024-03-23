@@ -101,7 +101,7 @@ const UserDetails = () => {
       setMobileNumber(storedMobileNumber);
     }
   }, []);
-  
+
   return (
     <>
       <Navbar />
