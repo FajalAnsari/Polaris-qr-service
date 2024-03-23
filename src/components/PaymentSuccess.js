@@ -35,7 +35,7 @@ const PaymentSuccess = ()=>{
                         <p className="tagline">We are happy to serve you  </p>
                     </div>
                     <div className="btn-box d-flex gx-2">
-                        <button onClick={viewbill} className="half-btn m-2">View Bill</button>
+                        <button onClick={viewbill} className="half-btn m-2 w-100">View Bill</button>
                     </div>
                 </div>
             </div>

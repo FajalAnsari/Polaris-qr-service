@@ -165,7 +165,7 @@ export default function Categories({ onCategoryClick }) {
 
   return (
     <div>
-      <div className="container p-4 pb-2 mt-5">
+      <div className="container pt-3 mt-5">
         {selectedCategoryName ? (
           <>
             <div className="d-flex">

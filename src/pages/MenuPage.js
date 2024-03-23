@@ -8,43 +8,55 @@ import { addParamsToUrl } from "../helper/addParamsToUrl";
 
 const MenuPage = () => {
   const [showModal, setShowModal] = useState(false);
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedItemModifiers, setSelectedItemModifiers] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedCategoryName, setSelectedCategoryName] = useState(null);
-  const [modifierData, setmodifierData] = useState("");
+  const [modifierData, setmodifierData] = useState([]);
+  const [modifierCategories, setModifierCategories] = useState([]);
   const [modifierImage, setmodifierImage] = useState("");
   const [limit, setLimit] = useState(12);
   const [itemData, setItemData] = useState([]);
-
+  const [selectedItem, setSelectedItem ] = useState([]);
+  const [trackedModifiers,setTrackedModifiers] = useState({}); 
   const dispatch = useDispatch();
 
-  // const handleCustomize = (item) => {
-  //   setSelectedItem(item);
-  //   setShowModal(true);
-  // };
+ 
+
 
   const send = (e) => {
-    console.log("something:", e);
-    
+    console.log('current item',e);
+    setSelectedItem(e);
     //testing modifier
     const modifiersForItem = modifierData.filter(
       (modifier) => modifier.modifier_sku === e.item_sku
-    );
-    if (modifiersForItem.length > 0) {
-      console.log(modifiersForItem);
-      // Display modal with modifiers
-      setSelectedItem(modifiersForItem);
+    ).reduce((acc,obj)=>{
+      const key=obj.modifier_cat_id;
+      if(!acc[key]){
+        acc[key]={
+          name:'',
+          items:[],
+          id:key
+        };
+      }
+      acc[key]['id']=obj.modifier_cat_id;
+      acc[key]['name']=obj.modifier_cat_name;
+      acc[key]['items'].push(obj);
+      return acc;
+    },{});
+
+    if (Object.keys(modifiersForItem).length > 0) {
+ 
+      setSelectedItemModifiers(modifiersForItem);
       setmodifierImage(e.item_image_address);
       setShowModal(true);
     } else {
       dispatch(ADD(e));
-      console.log("no modifier");
     }
   };
 
   const handleCloseModal = () => {
     setShowModal(false);
-    setSelectedItem(null);
+    setSelectedItemModifiers(null);
   };
 
   const handleCategoryClick = (category) => {
@@ -67,41 +79,76 @@ const MenuPage = () => {
     }
   };
 
-  // try {
-  //   const apiUrl = `${process.env.REACT_APP_API_URL}menu?location=LLRWA&table_id=1`;
-  //   const response = await fetch(apiUrl, {
-  //     method: "GET",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   });
-  // const apiUrl = `${process.env.REACT_APP_API_URL}menu?location=LLRWA&table_id=1`;
+  const setItemChecked = (item) =>{
+    // console.log(item);
+    // //disable or disable the rest of the options based on the number of allowed extras on each item
+    // if(!category) return;
+    // //see how much the allowed limit is
+    // 
+    // let disableAll=false;
+    
+    // if(!noCheckLimits){
+    //     if(trackedModifiers[selectedItem.item_sku]){
+    //       //it is allowed to add more modifiers
+    //       if(trackedModifiers[selectedItem.item_sku][category.modifier_category_id] < parseInt(category.modifier_maximum_amount)) {
+    //         trackedModifiers[selectedItem.item_sku][category.modifier_category_id]++;
+    //       } else {
+    //         disableAll=true;
+    //       }
+    //     // a new record
+    //     }  else {
+    //       trackedModifiers[selectedItem.item_sku]={};
+    //       trackedModifiers[selectedItem.item_sku][category.modifier_category_id]=1;
+    //     }
+    // }
+  
+    // //if it is already disabled
+    // //do not do any thing
+    // if(trackedModifiers[selectedItem.item_sku]==category.modifier_maximum_amount){
+    //   disableAll=true;
+    // }
+    const category=modifierCategories.find(cat=>cat.modifier_category_id == item.modifier_cat_id);
+    if(!category) return;
+    //do not check tack in this case
+    const checkTrack = !(category.modifier_maximum_amount =="0" && category.modifier_minimum_amount == "0");
+
+    const toggleCheckedAndDisabled = (mod,isMaxAllowedReached)=>({...mod,checked:!mod.checked,disabled: isMaxAllowedReached && mod.modifier_cat_id == category.modifier_category_id && !mod.checked});
+    //check if there is a need to check tracker 
+    if(checkTrack)  {
+      //check keys in the objects
+        if(selectedItem.item_sku in trackedModifiers) {
+          if(item.modifier_cat_id in trackedModifiers[selectedItem.item_sku]){
+            trackedModifiers[selectedItem.item_sku][item.modifier_cat_id]++;
+          } else {
+            trackedModifiers[selectedItem.item_sku][item.modifier_cat_id]=1;
+          }
+        } else {
+          trackedModifiers[selectedItem.item_sku]={};
+          trackedModifiers[selectedItem.item_sku][item.modifier_cat_id]=1;
+      }
+      const isMaxAllowedReached= trackedModifiers[selectedItem.item_sku][item.modifier_cat_id]==parseInt(category.modifier_maximum_amount);
+        setmodifierData(modifierData.map(mod=>toggleCheckedAndDisabled(mod,isMaxAllowedReached))); 
+        selectedItemModifiers[item.modifier_cat_id].items = selectedItemModifiers[item.modifier_cat_id].items.map(sub=>toggleCheckedAndDisabled(sub,isMaxAllowedReached));
+    }
+  }
+
 
   useEffect(() => {
     const fetchItems = async () => {
       try {
         const url = addParamsToUrl(`${process.env.REACT_APP_API_URL}menu`);
-
         const response = await fetch(url, {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
           },
         });
-
         const data = await response.json();
-        console.log(data.modifier_category[0].modifier_category_name
-          );
-          console.log(data);
-
-        // test
-        setmodifierData(data.modifiers);
-
-
+        setModifierCategories(data.modifier_category);
+        setmodifierData(data.modifiers.map(mod=>({...mod,checked:false})));
         setItemData(data.items);
       } catch (error) {
         console.log("Error fetching items:", error);
-        
       }
     };
     fetchItems();
@@ -109,7 +156,16 @@ const MenuPage = () => {
 
   const slice = itemData.slice(0, limit);
   const baseURL = process.env.REACT_APP_BASE_IMAGE;
-
+  const addModifier = () => {
+    const item = itemData.find(sub => sub.item_sku= selectedItemModifiers[0].modifier_sku);
+    item && dispatch(ADD({...item,modifieritems : modifierData.filter(selected=>selected.checked).map(selected=>({
+      modifier: selected.modifier_id,
+      modifier_name:selected.modifier_name,
+      modifier_price:selected.modifier_sales_price,
+      qty:1
+    }))}));
+    setShowModal(false);
+  }
   return (
     <>
       <Navbar />
@@ -130,8 +186,7 @@ const MenuPage = () => {
               const hasCustomization = modifierData.some(
                 (modifier) => modifier.modifier_sku === item.item_sku
               );
-              console.log(hasCustomization);
-
+            
               return (
                 <div key={index} className="col">
                   <div className="card">
@@ -174,7 +229,7 @@ const MenuPage = () => {
               );
             })}
           <button
-            className={`checkout-btn w-25 ${
+            className={`checkout-btn w-50 ${
               limit >= itemData.length ? "d-none" : ""
             }`}
             onClick={() => loadMore()}
@@ -184,12 +239,12 @@ const MenuPage = () => {
         </div>
 
         {/* Modifiers  */}
-        {selectedItem && (
+        {selectedItemModifiers && (
           <div
             className="modal"
             tabIndex="-1"
             role="dialog"
-            style={{ display: showModal ? "block" : "none" }}
+            style={{display: showModal ? "block" : "none"}}
           >
             <div
               className="modal-dialog modal-dialog-scrollable"
@@ -197,7 +252,7 @@ const MenuPage = () => {
             >
               <div className="modal-content">
                 <div className="modal-header">
-                  <h5 className="modal-title">{selectedItem.modifier_name}</h5>
+                  <h5 className="modal-title">{selectedItemModifiers.modifier_name}</h5>
                   <button
                     type="button"
                     className="btn-close"
@@ -216,29 +271,39 @@ const MenuPage = () => {
                     }}
                   />
 
-                  <table class="table mt-2">
+                  <table className="table mt-2">
                     <thead className="table-light">
                       <tr>
-                        <th colspan="3">Select your choice</th>
+                        <th colSpan="3">Select your choice</th>
                         <th scope="col">required</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {selectedItem.map((item, index) => (
-                        <tr key={index}>
-                          <th scope="row">
-                            <input
-                              className="form-check-input"
-                              type="checkbox"
-                              name={`option${index}`}
-                              id={`flexRadioDefault${index}`}
-                            />
-                          </th>
-                          <td></td>
-                          <td>{item.modifier_name}</td>
-                          <td></td>
-                        </tr>
-                      ))}
+                    {Object.keys(selectedItemModifiers).map(catKey=>(
+                      <>
+                      <tr key={selectedItemModifiers[catKey].id}>
+                          <td colSpan='4' style={{textAlign:'left',fontWeight:600, color:"#010101", backgroundColor:"#f8f9fa", border:"none"}}>{selectedItemModifiers[catKey].name}</td>
+                      </tr>
+                    
+                          {selectedItemModifiers[catKey].items.map((item) => (
+                            <tr key={item.modifier_id+'_'+item.modifier_sku}>
+                              <th scope="row">
+                                <input
+                                  className="form-check-input"
+                                  type="checkbox"
+                                  checked={item.checked}
+                                  disabled={item.disabled}
+                                  onChange={()=>setItemChecked(item)}
+                                />
+                              </th>
+                              {/* <td></td> */}
+                              <td>{item.modifier_name}</td>
+                              <td></td>
+                            </tr>
+                          ))}
+                      </>
+                    ))}
+                     
                     </tbody>
                     
                   </table>
@@ -255,7 +320,7 @@ const MenuPage = () => {
                   <button
                     type="button"
                     className="btn btn-danger"
-                    onClick={handleCloseModal}
+                    onClick={addModifier}
                   >
                     Add
                   </button>

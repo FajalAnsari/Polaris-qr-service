@@ -83,7 +83,9 @@ export default function AddCheckout() {
                       <>
                         <div className="row mx-auto"> 
                           <div className="col-6">
-                            <p>{e.item_name}</p>
+                            <p>{e.item_name} <li className="d-block modifier-items"> - Extra Gralic Souce x 2</li></p>
+                            
+                            
                           </div>
                           <div className="col-3 text-center">
                             <div className="count ">
@@ -110,6 +112,8 @@ export default function AddCheckout() {
                           </div>
                           <div className="col-3 crt-price text-center">
                             <p>{e.item_sales_price * e.item_qoh}</p>
+                            
+
                           </div>
                         </div>
                       </>

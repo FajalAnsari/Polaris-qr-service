@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import back_icon from "../images/back-arrow.svg";
 import Navbar from "./Navbar";
@@ -21,6 +21,8 @@ const UserDetails = () => {
   const handleNameChange = (event) => {
     const value = event.target.value;
     setName(value);
+    localStorage.setItem("name", value);
+    setName(value);
     if (value.trim() === "" || /\d/.test(value)) {
       setNameError("Please enter a valid name");
     } else {
@@ -30,6 +32,8 @@ const UserDetails = () => {
 
   const handleMobileNumberChange = (event) => {
     const value = event.target.value;
+    setMobileNumber(value);
+  localStorage.setItem("mobileNumber", value);
     setMobileNumber(value);
     if (!/^\d{10}$/.test(value)) {
       setMobileNumberError("Please enter a 10-digit mobile number");
@@ -61,6 +65,7 @@ const UserDetails = () => {
         price: item.item_sales_price,
         quantity: item.item_qoh,
         special_request: "nothing",
+        is_printed  : 0,
       })),
     };
 
@@ -83,6 +88,21 @@ const UserDetails = () => {
         console.error("Error sending data:", error);
       });
   };
+
+  useEffect(() => {
+    const storedName = localStorage.getItem("name");
+    const storedMobileNumber = localStorage.getItem("mobileNumber");
+  
+    if (storedName) {
+      setName(storedName);
+    }
+  
+    if (storedMobileNumber) {
+      setMobileNumber(storedMobileNumber);
+    }
+  }, []);
+  
+  
 
   return (
     <>

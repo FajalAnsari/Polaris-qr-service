@@ -30,7 +30,7 @@ export default function Stripe() {
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
     //todo: change url
-    fetch("http://192.168.0.12/liblib/branch_setup/api/checkout", {
+    fetch("http://192.168.0.19/liblib/branch_setup/api/checkout", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

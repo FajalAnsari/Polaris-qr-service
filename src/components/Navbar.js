@@ -19,6 +19,10 @@ function Navbar() {
     setMenuOpen(false)
     navigate("/stripe");
   }
+  const viewBill = () => {
+    setMenuOpen(false)
+    navigate("/viewbill");
+  }
   return (
     <>
       <nav className="navbar fixed-top ">
@@ -48,13 +52,13 @@ function Navbar() {
                 className="py-2 text-white"
                 onClick={payNow}
               >
-                Place the order
+                Pay Now
               </li>
               <li
                 className="py-2 text-white"
-                onClick={() => setMenuOpen(false)}
+                onClick={() => viewBill(false)}
               >
-                View & Pay Bill
+                View Bill
               </li>
               <li
                 className="py-2 text-white"
