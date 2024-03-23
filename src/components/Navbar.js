@@ -11,6 +11,7 @@ function Navbar() {
   const navigate = useNavigate();
   const getdata = useSelector((state) => state.addcartReducer.carts);
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const itemCount = getdata.reduce((acc, item) => acc + item.item_qoh, 0);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
   };
@@ -23,6 +24,7 @@ function Navbar() {
     setMenuOpen(false)
     navigate("/viewbill");
   }
+
   return (
     <>
       <nav className="navbar fixed-top ">
@@ -80,7 +82,7 @@ function Navbar() {
           </Link>
           <Link to={"/checkout"}>
             <button className="btn cart" type="submit">
-              <img src={cart} alt="cart"></img> <span>{getdata.length}</span>
+              <img src={cart} alt="cart"></img> <span>{itemCount}</span>
             </button>
           </Link>
         </div>

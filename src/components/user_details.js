@@ -102,8 +102,6 @@ const UserDetails = () => {
     }
   }, []);
   
-  
-
   return (
     <>
       <Navbar />
