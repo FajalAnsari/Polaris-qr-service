@@ -305,6 +305,31 @@ const MenuPage = () => {
                       </>
                     ))}
                      
+                    {Object.keys(selectedItemModifiers).map(catKey=>(
+                      <>
+                      <tr key={selectedItemModifiers[catKey].id}>
+                          <td colSpan='4' style={{textAlign:'center',fontWeight:400}}>{selectedItemModifiers[catKey].name}</td>
+                      </tr>
+                    
+                          {selectedItemModifiers[catKey].items.map((item) => (
+                            <tr key={item.modifier_id+'_'+item.modifier_sku}>
+                              <th scope="row">
+                                <input
+                                  className="form-check-input"
+                                  type="checkbox"
+                                  checked={item.checked}
+                                  disabled={item.disabled}
+                                  onChange={()=>setItemChecked(item)}
+                                />
+                              </th>
+                              <td></td>
+                              <td>{item.modifier_name}</td>
+                              <td></td>
+                            </tr>
+                          ))}
+                      </>
+                    ))}
+                     
                     </tbody>
                     
                   </table>
