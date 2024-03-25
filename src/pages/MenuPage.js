@@ -222,7 +222,6 @@ const MenuPage = () => {
                     <div className="card-body">
                       <h5 className="card-title">
                         {getShortenedText(item.item_name.replace(/&amp;/g, "&"), 35)}
-                        {item.item_category_id}
                       </h5>
                       <p className="card-text descri">
                         {getShortenedText(item.item_description, 35)}
