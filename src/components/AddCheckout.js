@@ -20,15 +20,11 @@ export default function AddCheckout() {
         price += item.modifieritems.reduce((acc,mod)=>acc+Number(mod.modifier_price),0); 
       }
       item.total_price = price * item.item_qoh;
-      console.log(item);
       return item;
     })
   }
 
-
   const [price, setPrice] = useState(0);
-  const [cart, setCart] = useState("");
-
   const send = (e) => {
     dispatch(ADD(e));
   };

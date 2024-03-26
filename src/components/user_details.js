@@ -7,11 +7,21 @@ import { addParamsToUrl } from "../helper/addParamsToUrl";
 
 const UserDetails = () => {
   const navigate = useNavigate();
-  const getdata = useSelector((state) => state.addcartReducer.carts);
-  let prise = 0;
-  getdata.map((ele, k) => {
-    prise = ele.item_sales_price * ele.item_qoh + prise;
-  });
+  const cartData = useSelector((state) => state.addcartReducer.carts);
+  
+  let getdata = [];
+  if(cartData){
+    getdata = cartData.map(item=>{
+      let price = Number(item.item_sales_price);
+      if(item.modifieritems){
+        price += item.modifieritems.reduce((acc,mod)=>acc+Number(mod.modifier_price),0); 
+      }
+      item.total_price = price * item.item_qoh;
+
+      return item;
+    })
+  }
+  
 
   const [name, setName] = useState("");
   const [mobileNumber, setMobileNumber] = useState("");
@@ -53,11 +63,11 @@ const UserDetails = () => {
       setMobileNumberError("Please enter a 10-digit mobile number");
       return;
     }
- 
+    const total = getdata.reduce((acc,item)=>acc+item.total_price,0);
     const OrderDetails = {
       customer_phone: mobileNumber,
       customer_name: name,
-      delivery_amount: 200,
+      delivery_amount: total,
       items: getdata.map((item) => ({
         modifieritems: item.modifieritems,
         product: item.item_sku,
@@ -68,7 +78,6 @@ const UserDetails = () => {
         is_printed  : 0
       })),
     };
-    console.log('order details',OrderDetails);
     const url = addParamsToUrl(`${process.env.REACT_APP_API_URL}order`);
     fetch(url, {
       method: "POST",
