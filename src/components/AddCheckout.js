@@ -11,16 +11,20 @@ import { parse } from "path-browserify";
 
 export default function AddCheckout() {
   const dispatch = useDispatch();
-  
   const cartData = useSelector((state) => state.addcartReducer.carts);
-  const getdata=cartData.map(item=>{
-    let price = item.item_sales_price;
-    if(item.modifieritems) {
-      price += item.modifieritems.reduce((acc,mod)=>acc+mod.modifier_price,0);
-    }
-    item.total_price=price * item.item_qoh;
-    return item
-  })
+  let getdata = [];
+  if(cartData){
+    getdata = cartData.map(item=>{
+      let price = Number(item.item_sales_price);
+      if(item.modifieritems){
+        price += item.modifieritems.reduce((acc,mod)=>acc+Number(mod.modifier_price),0); 
+      }
+      item.total_price = price * item.item_qoh;
+      console.log(item);
+      return item;
+    })
+  }
+
 
   const [price, setPrice] = useState(0);
   const [cart, setCart] = useState("");

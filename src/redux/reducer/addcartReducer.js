@@ -54,8 +54,7 @@ const updateLocalStorage = (carts) => {
         };
   
       case "RMV_ONE":
-       
-
+      
         //remove items with modifiers
         if(action.payload.modifieritems){
            const itemIndex = state.carts.findIndex(item=>item.uuid == action.payload.uuid);
