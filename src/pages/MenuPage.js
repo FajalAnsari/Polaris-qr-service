@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState   } from "react";
 import Navbar from "../components/Navbar";
 import Categories from "../components/categoris";
 import imageNotFound from "../images/not-image.jpg";
@@ -24,7 +24,6 @@ const MenuPage = () => {
   const send = (e) => {
     setSelectedItem(e);
     //testing modifier
-
     const modifiersForItem = modifierData.filter(
       (modifier) => modifier.modifier_sku === e.item_sku
     ).reduce((acc,obj)=>{
@@ -173,9 +172,7 @@ const MenuPage = () => {
   const slice = itemData.slice(0, limit);
   const baseURL = process.env.REACT_APP_BASE_IMAGE;
   const addModifier = () => {
-
-    const item = itemData.find(sub => sub.item_sku= selectedItemModifiers[0].modifier_sku);
-    item && dispatch(ADD({...item,modifieritems : modifierData.filter(selected=>selected.checked).map(selected=>({
+    dispatch(ADD({...selectedItem,modifieritems : modifierData.filter(selected=>selected.checked).map(selected=>({
       modifier: selected.modifier_id,
       modifier_name:selected.modifier_name,
       modifier_price:selected.modifier_sales_price,

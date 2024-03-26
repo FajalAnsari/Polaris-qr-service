@@ -3,11 +3,12 @@ import Navbar from './Navbar'
 import { Link, useNavigate } from 'react-router-dom'
 import back_icon from "../images/back-arrow.svg";
 import success_img from "../images/success.svg";
+import { useSelector } from 'react-redux';
 //TODO
 //add fetch on order id
 
 const Confirmed = ()=>{
-
+    console.log(useSelector((state) => state.addcartReducer.carts));
     const orderNumber = localStorage.getItem("order_num"); // Assuming order_num stores the order number
     const tableNumber = localStorage.getItem("table_id");
     const locationCode = localStorage.getItem("location");
@@ -20,10 +21,7 @@ const Confirmed = ()=>{
     const gotoStripe = () => {
         navigate("/stripe");
     }; 
-    // const gotoViewbill = () => {
-    //     navigate("/viewbill");
-    // };
-    
+ 
   return (
     <>
     <Navbar/>
@@ -48,11 +46,7 @@ const Confirmed = ()=>{
                     </div>
                     <div className="btn-box d-flex gx-2">
                         <button onClick={gotoMenu} className="half-btn m-2">Explore More</button>
-
-                        {/* <button onClick={gotoViewbill} className="half-btn m-2">View Bill</button> */}
-
                         <button className="half-btn m-2 pay-now" onClick={gotoStripe}>Pay Now</button>
-
                     </div>
                 </div>
             </div>

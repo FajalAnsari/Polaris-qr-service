@@ -16,7 +16,6 @@ export default function CheckoutForm({totalAmount}) {
     if (!stripe) {
       return;
     }
-
     const clientSecret = new URLSearchParams(window.location.search).get(
       "payment_intent_client_secret"
     );

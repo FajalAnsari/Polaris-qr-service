@@ -20,7 +20,6 @@ const UserDetails = () => {
 
   const handleNameChange = (event) => {
     const value = event.target.value;
-    setName(value);
     localStorage.setItem("name", value);
     setName(value);
     if (value.trim() === "" || /\d/.test(value)) {
@@ -33,7 +32,7 @@ const UserDetails = () => {
   const handleMobileNumberChange = (event) => {
     const value = event.target.value;
     setMobileNumber(value);
-  localStorage.setItem("mobileNumber", value);
+    localStorage.setItem("mobileNumber", value);
     setMobileNumber(value);
     if (!/^\d{10}$/.test(value)) {
       setMobileNumberError("Please enter a 10-digit mobile number");
@@ -54,21 +53,22 @@ const UserDetails = () => {
       setMobileNumberError("Please enter a 10-digit mobile number");
       return;
     }
-
+ 
     const OrderDetails = {
       customer_phone: mobileNumber,
       customer_name: name,
       delivery_amount: 200,
       items: getdata.map((item) => ({
+        modifieritems: item.modifieritems,
         product: item.item_sku,
         product_name: item.item_name,
         price: item.item_sales_price,
         quantity: item.item_qoh,
         special_request: "nothing",
-        is_printed  : 0,
+        is_printed  : 0
       })),
     };
-
+    console.log('order details',OrderDetails);
     const url = addParamsToUrl(`${process.env.REACT_APP_API_URL}order`);
     fetch(url, {
       method: "POST",

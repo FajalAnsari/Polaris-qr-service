@@ -6,45 +6,42 @@ import minus_icon from "../images/minus.svg";
 import back_icon from "../images/back-arrow.svg";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { DLT, REMOVE, ADD } from "../redux/action/action";
+import { REMOVE, ADD } from "../redux/action/action";
+import { parse } from "path-browserify";
 
 export default function AddCheckout() {
   const dispatch = useDispatch();
+  
+  const cartData = useSelector((state) => state.addcartReducer.carts);
+  const getdata=cartData.map(item=>{
+    let price = item.item_sales_price;
+    if(item.modifieritems) {
+      price += item.modifieritems.reduce((acc,mod)=>acc+mod.modifier_price,0);
+    }
+    item.total_price=price * item.item_qoh;
+    return item
+  })
 
-  const getdata = useSelector((state) => state.addcartReducer.carts);
-
-  const [prise, setPrise] = useState(0);
+  const [price, setPrice] = useState(0);
   const [cart, setCart] = useState("");
 
   const send = (e) => {
     dispatch(ADD(e));
   };
 
-  const dlt = (id) => {
-    dispatch(DLT(id));
-  };
+
 
   const remove = (item) => {
     dispatch(REMOVE(item));
   };
 
   const total = () => {
-    let prise = 0;
-    getdata.map((ele, k) => {
-      prise = ele.item_sales_price * ele.item_qoh + prise;
-    });
-    setPrise(prise);
+    setPrice(getdata.reduce((acc,item)=>acc+item.total_price,0));
   };
 
   useEffect(() => {
     total();
     const storedCart = localStorage.getItem('cart');
-    // if(storedCart){
-    //   console.log(JSON.parse(storedCart));
-    //   setCart(JSON.parse(storedCart));
-    
-    // }
-    
   }, [total]);
 
   return (
@@ -83,20 +80,14 @@ export default function AddCheckout() {
                       <>
                         <div className="row mx-auto"> 
                           <div className="col-6">
-                            <p>{e.item_name} <li className="d-block modifier-items"> - Extra Gralic Souce x 2</li></p>
-                            
-                            
+                            <p>{e.item_name} <li className="d-block modifier-items"> </li></p>      
                           </div>
                           <div className="col-3 text-center">
                             <div className="count ">
                               <div className="d-flex justify-content-between align-items-center px-2">
                                 <span
                                   style={{ cursor: "pointer" }}
-                                  onClick={
-                                    e.item_qoh <= 1
-                                      ? () => dlt(e.item_sku)
-                                      : () => remove(e)
-                                  }
+                                  onClick={ () => remove(e) }
                                 >
                                   <img src={minus_icon} />
                                 </span>
@@ -111,11 +102,20 @@ export default function AddCheckout() {
                             </div>
                           </div>
                           <div className="col-3 crt-price text-center">
-                            <p>{e.item_sales_price * e.item_qoh}</p>
-                            
-
+                            <p>{e.total_price}</p>
                           </div>
-                        </div>
+                          { e.modifieritems && e.modifieritems.map((mod)=>{
+                              return (
+                                <>
+                                <div className="col-1"></div>
+                                <div className="col-11">
+                                    <p>{mod.modifier_name} ({mod.modifier_price})</p>      
+                                </div>
+                                </>
+                              );
+                            })
+                          }
+                        </div>  
                       </>
                     );
                   })}
@@ -126,7 +126,7 @@ export default function AddCheckout() {
                   <h6>Sub-Total</h6>
                 </div>
                 <div className="col-3 crt-price text-center">
-                  <p>{prise}</p>
+                  <p>{price}</p>
                 </div>
               </div>
               <div className="row mx-auto">
@@ -151,7 +151,7 @@ export default function AddCheckout() {
                   <h5>Total</h5>
                 </div>
                 <div className="col-3 crt-price text-center">
-                  <h5>{prise}</h5>
+                  <h5>{price}</h5>
                 </div>
               </div>
 

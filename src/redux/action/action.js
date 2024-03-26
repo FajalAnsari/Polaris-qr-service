@@ -11,10 +11,10 @@ export const ADD = (item) => {
     }
 }
 
-export const DLT = (id) => {
+export const DLT = (item) => {
     return {
         type:'RMV_CART',
-        payload:id
+        payload:item
     }
 }
 
